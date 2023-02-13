@@ -1,0 +1,6 @@
+//MO033-034.TXT ANA00033 TO ANA00034
+Recouvrement		TAR	664	nouvelle taille enregistrement : 664
+Recouvrement	TRANCHE_PAIEMENT	RUB+		TRANCHE_PAIEMENT est une nouvelle clé
+TRANCHE		NFI		nouveau fichier
+Contrainte_TRANCHE_Recouvrement		NWL	TRANCHE (TRANCHE_PAIEMENT) et Recouvrement (TRANCHE_PAIEMENT)	Nouvelle liaison entre les fichiers TRANCHE (TRANCHE_PAIEMENT) et Recouvrement (TRANCHE_PAIEMENT)
+TRANCHE		FRN		

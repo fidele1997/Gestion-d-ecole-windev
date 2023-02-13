@@ -1,0 +1,3 @@
+//MO025-026.TXT ANA00025 TO ANA00026
+ClassesSchool		TAR	560	nouvelle taille enregistrement : 560
+ClassesSchool	total_a_payer	RUB+		total_a_payer est une nouvelle rubrique

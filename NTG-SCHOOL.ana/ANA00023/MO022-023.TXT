@@ -1,0 +1,12 @@
+//MO022-023.TXT ANA00022 TO ANA00023
+Matiere		TAR	168	nouvelle taille enregistrement : 168
+Matiere	IDCoefficient	RUB-		la clé IDCoefficient est supprimée
+Semestre		TAR	210	nouvelle taille enregistrement : 210
+Semestre		IDE-*		fichier sans identifiant
+Semestre	id	RUB-		la clé id est supprimée
+Coefficient		NFI		nouveau fichier
+Coefficient		FIC-	Coefficient	Fichier supprimé Coefficient
+Contrainte_ClassesSchool_Matiere		NWL	ClassesSchool (IDClassesSchool) et Coefficient (IDClassesSchool)	Nouvelle liaison entre les fichiers ClassesSchool (IDClassesSchool) et Coefficient (IDClassesSchool)
+Contrainte_Matiere_ClassesSchool		NWL	Matiere (IDMatiere) et Coefficient (IDMatiere)	Nouvelle liaison entre les fichiers Matiere (IDMatiere) et Coefficient (IDMatiere)
+Contrainte_Coefficient_Matiere		DEL	Coefficient (IDCoefficient) et Matiere (IDCoefficient)	Liaison supprimée entre les fichiers Coefficient (IDCoefficient) et Matiere (IDCoefficient)
+Coefficient		FRN		

@@ -1,0 +1,5 @@
+//MO010-011.TXT ANA00010 TO ANA00011
+Semestre		TAR	214	nouvelle taille enregistrement : 214
+Semestre		IDE+*		fichier avec identifiant
+Semestre	id	RUB+		id est une nouvelle clé
+Contrainte_Trimestre_Note		DEL	Semestre (Trimestre) et Note (Trimestre)	Liaison supprimée entre les fichiers Semestre (Trimestre) et Note (Trimestre)

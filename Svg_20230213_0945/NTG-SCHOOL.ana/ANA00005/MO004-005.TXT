@@ -1,0 +1,8 @@
+//MO004-005.TXT ANA00004 TO ANA00005
+user		TAR	472	nouvelle taille enregistrement : 472
+user	UserNom	RUB+		UserNom est une nouvelle clé
+user	UserPrenom	RUB+		UserPrenom est une nouvelle clé
+user	login	RUB+		login est une nouvelle clé
+user	groupe	RUB+		groupe est une nouvelle rubrique
+user	password_user	RUB+		password_user est une nouvelle rubrique
+Groupe		NFI		nouveau fichier

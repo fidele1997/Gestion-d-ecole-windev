@@ -1,0 +1,5 @@
+//MO019-020.TXT ANA00019 TO ANA00020
+Note	IDMatiere	RUB+		IDMatiere est une nouvelle clé
+Note	IDMatiere	RUB-		la rubrique IDMatiere est supprimée
+Contrainte_Matiere_Note		NWL	Matiere (IDMatiere) et Note (IDMatiere)	Nouvelle liaison entre les fichiers Matiere (IDMatiere) et Note (IDMatiere)
+Contrainte_Matiere_Note		DEL	Matiere (IDMatiere) et Note (IDMatiere)	Liaison supprimée entre les fichiers Matiere (IDMatiere) et Note (IDMatiere)

@@ -1,0 +1,4 @@
+//MO018-019.TXT ANA00018 TO ANA00019
+Matiere		TAR	176	nouvelle taille enregistrement : 176
+Matiere	IDCoefficient	RUB+		IDCoefficient est une nouvelle clé
+Contrainte_Coefficient_Matiere		NWL	Coefficient (IDCoefficient) et Matiere (IDCoefficient)	Nouvelle liaison entre les fichiers Coefficient (IDCoefficient) et Matiere (IDCoefficient)

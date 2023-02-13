@@ -1,0 +1,55 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+Eleve		TAR	2683	nouvelle taille enregistrement : 2683
+Eleve	IDStatut_Eleve	RUB+		IDStatut_Eleve est une nouvelle clé
+ClassesSchool		TAR	349	nouvelle taille enregistrement : 349
+ClassesSchool	Classee	CLEN*		la rubrique Classee est maintenant une clé
+ClassesSchool	FORMATION	RUB+		FORMATION est une nouvelle clé
+Matiere	Matiere	CLEN*		la rubrique Matiere est maintenant une clé
+Note		TAR	720	nouvelle taille enregistrement : 720
+Note	Interro1	CNW	Réel sur 4 octets$Entier non signé sur 2 octets	la rubrique Interro1 a pour nouveau type Réel sur 4 octets
+Note	Interro2	CNW	Réel sur 4 octets$Entier sur 1 octet	la rubrique Interro2 a pour nouveau type Réel sur 4 octets
+Note	Interro3	CNW	Réel sur 4 octets$Entier non signé sur 2 octets	la rubrique Interro3 a pour nouveau type Réel sur 4 octets
+Note	Interro4	CNW	Réel sur 4 octets$Entier sur 1 octet	la rubrique Interro4 a pour nouveau type Réel sur 4 octets
+Note	Dev1	CNW	Réel sur 4 octets$Entier non signé sur 2 octets	la rubrique Dev1 a pour nouveau type Réel sur 4 octets
+Note	Dev2	CNW	Réel sur 4 octets$Entier non signé sur 2 octets	la rubrique Dev2 a pour nouveau type Réel sur 4 octets
+Note	MI	NNR	Moy	ATTENTION : la rubrique Moy a pour nouveau nom MI
+Note	MI	CNW	Réel sur 4 octets$Réel sur 8 octets	la rubrique MI a pour nouveau type Réel sur 4 octets
+Note	MT	RUB+		MT est une nouvelle rubrique
+Note	IDClassesSchool	RUB+		IDClassesSchool est une nouvelle clé
+Note	IDEleve	RUB+		IDEleve est une nouvelle clé
+Note	Classes	RUB+		Classes est une nouvelle clé
+Note	Matiere	RUB+		Matiere est une nouvelle clé
+Note	Eleve	RUB+		Eleve est une nouvelle clé
+Note	IDMatiere	RUB+		IDMatiere est une nouvelle clé
+Note	AnneAcademique	RUB+		AnneAcademique est une nouvelle clé
+Inscription		TAR	658	nouvelle taille enregistrement : 658
+Inscription	date_inscription	RUB+		date_inscription est une nouvelle clé
+Inscription	total_inscription	NNR	total_paye	ATTENTION : la rubrique total_paye a pour nouveau nom total_inscription
+Inscription	AnneAcademique	NNR	AnneAcademique1	ATTENTION : la clé AnneAcademique1 a pour nouveau nom AnneAcademique
+Inscription	IDEleve	RUB+		IDEleve est une nouvelle clé
+Inscription	Eleve	RUB+		Eleve est une nouvelle clé
+Inscription	Classes	RUB+		Classes est une nouvelle clé
+Inscription	Tot_payé	RUB+		Tot_payé est une nouvelle rubrique
+Inscription	reste_du	RUB+		reste_du est une nouvelle rubrique
+Inscription	reste_a_payer	RUB+		reste_a_payer est une nouvelle rubrique
+Inscription	AnneAcademique	RUB-		la clé AnneAcademique est supprimée
+Statut_Eleve		TAR	64	nouvelle taille enregistrement : 64
+Statut_Eleve		IDE+*		fichier avec identifiant
+Statut_Eleve	Statut	CLEN*		la rubrique Statut est maintenant une clé
+Statut_Eleve	IDStatut_Eleve	RUB+		IDStatut_Eleve est une nouvelle clé
+Recouvrement		NFI		nouveau fichier
+EMPLOI_DU_TEMPS		NFI		nouveau fichier
+Contrainte_Eleve_Inscription		NWL	Eleve (IDEleve) et Inscription (IDEleve)	Nouvelle liaison entre les fichiers Eleve (IDEleve) et Inscription (IDEleve)
+Contrainte_Statut_Eleve_Eleve		NWL	Statut_Eleve (IDStatut_Eleve) et Eleve (IDStatut_Eleve)	Nouvelle liaison entre les fichiers Statut_Eleve (IDStatut_Eleve) et Eleve (IDStatut_Eleve)
+Contrainte_FORMATION_ClassesSchool		NWL	FORMATION (FORMATION) et ClassesSchool (FORMATION)	Nouvelle liaison entre les fichiers FORMATION (FORMATION) et ClassesSchool (FORMATION)
+Contrainte_ClassesSchool_Note		NWL	ClassesSchool (IDClassesSchool) et Note (IDClassesSchool)	Nouvelle liaison entre les fichiers ClassesSchool (IDClassesSchool) et Note (IDClassesSchool)
+Contrainte_Eleve_Note		NWL	Eleve (IDEleve) et Note (IDEleve)	Nouvelle liaison entre les fichiers Eleve (IDEleve) et Note (IDEleve)
+Contrainte_Matiere_Note		NWL	Matiere (IDMatiere) et Note (IDMatiere)	Nouvelle liaison entre les fichiers Matiere (IDMatiere) et Note (IDMatiere)
+Contrainte_Anne_Accademique_Note		NWL	Anne_Accademique (AnneAcademique) et Note (AnneAcademique)	Nouvelle liaison entre les fichiers Anne_Accademique (AnneAcademique) et Note (AnneAcademique)
+Contrainte_Anne_Accademique_Recouvrement		NWL	Anne_Accademique (AnneAcademique) et Recouvrement (AnneAcademique)	Nouvelle liaison entre les fichiers Anne_Accademique (AnneAcademique) et Recouvrement (AnneAcademique)
+Contrainte_Eleve_Recouvrement		NWL	Eleve (IDEleve) et Recouvrement (IDEleve)	Nouvelle liaison entre les fichiers Eleve (IDEleve) et Recouvrement (IDEleve)
+Contrainte_ClassesSchool_Recouvrement		NWL	ClassesSchool (IDClassesSchool) et Recouvrement (IDClassesSchool)	Nouvelle liaison entre les fichiers ClassesSchool (IDClassesSchool) et Recouvrement (IDClassesSchool)
+Contrainte_Matiere_Professeur		NWL	Matiere (IDMatiere) et EMPLOI_DU_TEMPS (IDMatiere)	Nouvelle liaison entre les fichiers Matiere (IDMatiere) et EMPLOI_DU_TEMPS (IDMatiere)
+Contrainte_Professeur_Matiere		NWL	Professeur (IDProfesseur) et EMPLOI_DU_TEMPS (IDProfesseur)	Nouvelle liaison entre les fichiers Professeur (IDProfesseur) et EMPLOI_DU_TEMPS (IDProfesseur)
+Contrainte_ClassesSchool_EMPLOI_DU_TEMPS		NWL	ClassesSchool (IDClassesSchool) et EMPLOI_DU_TEMPS (IDClassesSchool)	Nouvelle liaison entre les fichiers ClassesSchool (IDClassesSchool) et EMPLOI_DU_TEMPS (IDClassesSchool)
+EMPLOI_DU_TEMPS		FRN		

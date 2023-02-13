@@ -1,0 +1,5 @@
+//MO006-007.TXT ANA00006 TO ANA00007
+Note		TAR	922	nouvelle taille enregistrement : 922
+Note	Trimestre	RUB+		Trimestre est une nouvelle clé
+Trimestre	Trimestre	CLEU*		la rubrique Trimestre est maintenant une clé
+Contrainte_Trimestre_Note		NWL	Trimestre (Trimestre) et Note (Trimestre)	Nouvelle liaison entre les fichiers Trimestre (Trimestre) et Note (Trimestre)

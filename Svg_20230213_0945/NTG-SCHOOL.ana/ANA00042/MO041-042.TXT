@@ -1,0 +1,3 @@
+//MO041-042.TXT ANA00041 TO ANA00042
+Inscription		TAR	508	nouvelle taille enregistrement : 508
+Inscription	Matricule	RUB-		la clé Matricule est supprimée

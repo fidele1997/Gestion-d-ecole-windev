@@ -1,0 +1,18 @@
+//MO037-038.TXT ANA00037 TO ANA00038
+Note		TAR	723	nouvelle taille enregistrement : 723
+Note	AnneAcademique	RUB+		AnneAcademique est une nouvelle clé
+Note	AnneAcademique	RUB-		la clé AnneAcademique est supprimée
+Anne_Accademique		TAR	11	nouvelle taille enregistrement : 11
+Anne_Accademique	AnneAcademique	CNW	Entier non signé sur 2 octets$Chaîne	la rubrique AnneAcademique a pour nouveau type Entier non signé sur 2 octets
+Inscription		TAR	510	nouvelle taille enregistrement : 510
+Inscription	AnneAcademique	RUB+		AnneAcademique est une nouvelle clé
+Inscription	AnneAcademique	RUB-		la clé AnneAcademique est supprimée
+Recouvrement		TAR	465	nouvelle taille enregistrement : 465
+Recouvrement	AnneAcademique	RUB+		AnneAcademique est une nouvelle clé
+Recouvrement	AnneAcademique	RUB-		la clé AnneAcademique est supprimée
+Contrainte_Anne_Accademique_Inscription		NWL	Anne_Accademique (AnneAcademique) et Inscription (AnneAcademique)	Nouvelle liaison entre les fichiers Anne_Accademique (AnneAcademique) et Inscription (AnneAcademique)
+Contrainte_Anne_Accademique_Note		NWL	Anne_Accademique (AnneAcademique) et Note (AnneAcademique)	Nouvelle liaison entre les fichiers Anne_Accademique (AnneAcademique) et Note (AnneAcademique)
+Contrainte_Anne_Accademique_Recouvrement		NWL	Anne_Accademique (AnneAcademique) et Recouvrement (AnneAcademique)	Nouvelle liaison entre les fichiers Anne_Accademique (AnneAcademique) et Recouvrement (AnneAcademique)
+Contrainte_Anne_Accademique_Inscription		DEL	Anne_Accademique (AnneAcademique) et Inscription (AnneAcademique)	Liaison supprimée entre les fichiers Anne_Accademique (AnneAcademique) et Inscription (AnneAcademique)
+Contrainte_Anne_Accademique_Note		DEL	Anne_Accademique (AnneAcademique) et Note (AnneAcademique)	Liaison supprimée entre les fichiers Anne_Accademique (AnneAcademique) et Note (AnneAcademique)
+Contrainte_Anne_Accademique_Recouvrement		DEL	Anne_Accademique (AnneAcademique) et Recouvrement (AnneAcademique)	Liaison supprimée entre les fichiers Anne_Accademique (AnneAcademique) et Recouvrement (AnneAcademique)

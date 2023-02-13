@@ -1,0 +1,4 @@
+//MO054-055.TXT ANA00054 TO ANA00055
+Note		TAR	972	nouvelle taille enregistrement : 972
+Note		IDE+*		fichier avec identifiant
+Note	id_note	RUB+		id_note est une nouvelle clé

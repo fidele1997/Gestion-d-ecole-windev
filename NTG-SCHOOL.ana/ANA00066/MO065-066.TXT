@@ -1,0 +1,3 @@
+//MO065-066.TXT ANA00065 TO ANA00066
+Note		TAR	780	nouvelle taille enregistrement : 780
+Note	Trimestre	RUB-		la clé Trimestre est supprimée

@@ -1,0 +1,5 @@
+//MO038-039.TXT ANA00038 TO ANA00039
+Inscription	IDEleve	RUB+		IDEleve est une nouvelle clé
+Inscription	IDEleve	RUB-		la clé IDEleve est supprimée
+Contrainte_Eleve_Inscription		NWL	Eleve (IDEleve) et Inscription (IDEleve)	Nouvelle liaison entre les fichiers Eleve (IDEleve) et Inscription (IDEleve)
+Contrainte_Eleve_Inscription		DEL	Eleve (IDEleve) et Inscription (IDEleve)	Liaison supprimée entre les fichiers Eleve (IDEleve) et Inscription (IDEleve)

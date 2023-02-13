@@ -1,0 +1,608 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Nouveau_Inscrption
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Nouveau_Inscrption
+ identifier : 0x2297e15813b01f0f
+ internal_properties : BQAAAAUAAADcY6bBeGIpHR6xOjONomsWPutYuqjiZ9+KgcrAxpi40dYLWVK4zJhHH9sIQZ67B7pN71LInJ0V0F5rIj7whugMlKr1Myhv7e7MrOagT0QcEpM3x2MChUNZarV5vIYo+Nz6BmjfNyUAq7m/W7qZG9XxDApLG8WqA+c/J6P1X7ug2CLD2xlSQDID7NSAgzbgLYkpWjuGKwjSDEMd8mrzJ5ZFYH5KhNIUOofy0Pez9sddqO5XwX2mACgaUOyI7k4JhoaIvg2xL6ftEOZtPL6uSTS9PbM4xRMKzkpTF9iqjhY1Z05a+SKowSp2AcPxP4RpcenVEyPNwfEW1l9Cz+jdYyxdScD1Nwjw5/rY2DHRacb1Hf7qDbsYkAU6LFCuTk9LBTkawSfI2sCPkxdCV+VT6VaMKZQHnuAZ9cCQBU2MUO+xO24Jx/SzX+AhJDp2MOcImEt2jhaOT2OoENibih79Zn63ntYEo7V9Hww2i2o7n8g+XMbAtBGGqa7Q0CGw9vvlSTrjIpjn8GNSbrZnFqxryCjwadDdgvTP8co7RGJY+BWfalz2zgQZdNAmqiVhl5TVNwyTPiLyYGHa+lL6m8y6KeqLVseFSip1SB2FUeum/9BQwO/4tbXhxJ5qEQA3aeB5AymkbyT2KbY=
+ controls :
+  -
+    name : SAI_Date_d_inscription
+    identifier : 0x2298780702a3bcba
+    internal_properties : BQAAAAUAAABzKEwDp5xm9TCKNLYCFVEC7D3IRP7g4I641IdeIPyi8bfIzLjL4BCR4C4SRkchKD2eA1lrVaBBT9uk3206nBzA2Cj6UjzhDVVYdkrBBXRS6NdCHm6+qE4WoxX+6lLbMf9sfQJlylZANWc8IOVSEXzm7XkCSWrfS40Ha0H2Dy1dHTli19GyOYBv6WXBtBJftvevco6Ds9lqTAm7WFn4xmBk3K48XCNr2kDY/LG5jF9fZbpAj8cFA7R6zWDrUpPv6NHYn3SNhgUp5cjVsPDO1eAGqphfZ+1lLMTKXgq4U0xOMvxXwKogwnX96iR5sv5aKPnodgPER96uiSSx0Tooe8u5unreCEFoLAzdPZT/pFxTZSB8rK8RD/Br5pXsDR8QQ9PE3kiqVAKIT9h54P+p7JBYgq67NnopKAeSxkW8fYttGP2dfPQWP+l+NQCVPjWBSGmv1UxUApOk0g0o1BkfnK3pd9ZhtG+1jIbLQ/KSNIpTnpnGiOtAJeTnyo0VPW3g7ULMS9ZLRwK2DIGjaRGKaD4xbYqmmV6zOJhRtTaJLHfkZZtCFUpY9tOomiEUNzj3OLtlGsbevdpRXX8GrEPwhzruqdWrHBGEKOxFDJzBg7Yd6Ca7aRChOKJ0IL/k9Ohqb11ihZp+y24gLDWU1rNJjcdz9ZdOMsywTOM1w92JEBh+RWGacRaiQi64TBbmErcK8uNsJK+xlRNNGt1pZwQhPV2l6k5Yjh57PMBQc6NwkmTcxOD7kYCfMtJ6e6UMvWpbszBxzM8Qci6srkUJnqzevwX54NcKBrZirqfuOrNVCpOFT0a5PqrjJhUghIvMhMJX06bKzBaIF2w/QLLmIe+Ufv8LJiW0/khWWFANk7KkP795ftA+WDw7al98hom2qJRTZacXI7K6rqhe6ZnwOfHibCaVlg/GvAeZ4O1iprgSEJSn5M/RQyPM54+jZfXGf6z2CAopeATGcgdMUJjvZonwKF2b/M2dwixhtK9ut20FbnCuLZZULeF3cFIKz/RHolQMmXdR9ETnqwvmqym40AEyprjLVyumncaN4CgM6dQW4bzdr+MIk834h3PMEWFLMWnGFfqZglK/n7Gz88HOqJmqLtA5FItp97vNQkUNWhw7jIYqc4rRjkbN+j0hdYKJoPZc6W0NFCHwGMVnwPEzNDkZ1e3Umd1slFT8M1wdsprz+ugzJ8/2q44vHg6aFc1+8c/apWawsGcGQqddpY8gVYJAkd6/Ozkm2O72piBE8jdWgDhx9JxkMBfRuNM/87BC3pCCuNY5F+EU+RdnaZH7qLchhQFNN/sJ/5k7OJAQ3wXkoENvtEIfIYZdZDY5gZoYMXDi3pHL9/1Miiu52p4cW445ABr15v/XPUYXRHHQlXM1h6i4FwED+j1OCgof2+CP8YaEr02gT4XrR2mFyCoXyF2Y9NbqFo+G9RbkSlhSjkrSOLVWvK/WkQXqm/ddTeuWjrgILNgn+XhY5KA3jgrUR4EzeOxZqux22i2JN31PEz87e7eLNMw3wupEBIumW0jdpGX6HLPoW7KV71x6+w==
+    calendar :
+     identifier : 0x2297e4dc13f3daaf
+     internal_properties : BQAAAAUAAAB3lYmuFInFfTWhgXRrbUeuS4X9ITuKjCXsTvPv+pweAbbbKGxkgjtPjYx5c2OaKKmnv67duF1uWpaIg51VVeY4uVD0dpK0le7T+zP+AW1+Kfc7o4tyIGnSLGAkGTjzb0k95UGyh+CloxWenQzuMgNTESh5uaX4//gCVOV3BohNlSXO+6/J+l7lNgoTF50V7w9VtfcEQlhqMI9ynXCdItUTnw8nzLBlAR0bL0CVrZX5djwi528ADuxsKkpO6IVyOBvLGAdGVPxoWu+BIlBr24bqXzIALN58BcX187/6OCMSUfMA4JOb2Mcx67gCHiMY4AJgkv5D92jp9liiKN/fBL3QFn5Ns/RNiMxqMzaO/NhryWBRDnHaruZ7tkYThOJOlQe0w7JufEo8H4H9IMTbRK8jprs2b96VZV2e2KPYTcqvGeAT0iMg2V48WbQazGWYYgsFGNxiwd7eouviUM/sFhl8NyKyN/kkQU/3voVMvkar5o3RS5cxHFMKsNEr3k6d6XrzL/nt2Wy7LxqVks4ivtSKZKuvB7/vc9vB1j+9wJn71mbwYGhjoEU6cyL3CpF8aRDrUzV5H64TtQQmG0bF+5viwPZZ3a8cHz0BZ82Voq9Epjwqpef4P2Ft4SVMyQYnsrDknjFgKzjqbO0xLD4wTFWZAFW0SsFF4jp77Ux3MrX42E76ItWpnrZJSWSqyY1WVCsz0KVf8iyHnrmDTqKEdJNrXUv4VWwmgmbc5ll7Sd3jD64WodFQZZPeXxqUYIJocCkyPbUpkAVIleLfiHFGWJr+G5X4d245NQnAFG7VWlhgtYpGWPvPhgoxaAmaTioP4oSO9UglgLZTSqK8qJlb3/XNacjlMVVmD/SWCKNOQRRhjhGYfd+9Gek+y9aBdssGTKUWEIA/rN+fgEGSQYOrCh01CPGKJjlJMVCrqV4GcpCjDChymS3Igj1QPuT0eS+pRBrpzOEm6fbMk/w1ztAFv+f2vTwsqa/txJapbPIQt2U73VlNlwE74yT9LG2JiYG92N3pcStGhuzFQDg2yjxlBrJ5FyVI6Y9V+qg0OFqyUswGNTUQAZ5HE2AfsAHriXdDOazue41R/xNVY9AUn+VzB3AfcLSBIQ4+XkOW2OkcPNJFEXo3yfKe54bYVgvph1+7rg7wTz17NsNbj2f9Th3wLD6zVpDxXrGUIRTDyrotKTcSzOccXZNyk5c6giRLm7y5d0LAcf6SLIUvSqIbz7hD5QCXseMaxyFtzS3X
+     type : 47
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : LIB_Type1
+    identifier : 0x2298780702bbbcf9
+    internal_properties : BQAAAAUAAABXhPJbPRMi6YjaIZe3refdfSXzRqB+ElhvxY3bTeA5UY0v1scLDH6Hf0ijgw3Ejf0iGQfuhEmmA0OdktkCT22EHO+SrDwvPJOF9sVycAJCvRqowLPHFWC/BhyEUJ0BpljgJhjMYucxLtVXGAbfor7pQD4LpbmKyfPO8Mu9WsFk7d27euvX4O3KGo/8yBElOD/HVk6vBI4uZzJuOc+5+cr2byfTC2AxMZ4go2CN1fkMmgECSmWJL7DPxTotZNdEfzNrYsCU3Rc9OjfFAkFudnsaEkh5mp8K7OL6B8mXwOctw7babN/bDND67ZwlVprlShDhMMRu0dIC7JFYtIhePvvPnVev9v4Z9S58qTWPPD1m6yjbM7r65sam3u0j8h8ofsbr7kRLILUHUo2TvWy443Pv+AKlku434Ahx7SMqLywyPSGLHncI9fG6YwetLadyVQQNZMuO2Yumw3DgDRCfoiTmzKpK7SI/xtCYepLGrZJhy3jlkQVoHtVhhmfxGLOlCIJ8tk/hene9+DvmwDNplBGKAHi0
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : BTN_Fermer
+    identifier : 0x2298780702b9bcf9
+    internal_properties : BQAAAAUAAAA5pF+a8XV07R9e1gn7pv+7S0TkIpVE6E3LVstf3pOcwi5SYrommapZM9L6s7bsouTs6NUV3+NBI+lmlkjiFVunsLj8EB2wKHYawmXRAA+v2qgl607JXsZwxJ2y9qSt5HDipjlntWf2be/kym+QbKd78mol6Czkn01q6lY1zjHuNtHfu4tEaqhLwSZ1GovNAZ1hkK1oPxZlf46Bwm/J0NFnc3xzMZW5+6XPGGBlgQ2alYRaXPdBim1UoErlk5suZEiF+3YOc9uqiaJfYmooM0Md5sV9nhkomXF5x+oDqxjpUcgga+BkoXcy7sAlNNc0t0Dn+ZvDkfq81ACKuUKqzJioXBUWiTY4NS2AOSU7dDBFIZYG0nA7LKDbwa+gEZMmjyTfBcdHKZ+YtaCJnpvuvQcbZpuhSUn0z0xB607IOyPZUd6Giu1HDVAnpvOK1qaMQitejQ9jB44xFiTWxZ+sq5KRo/n/GXRWxZkBodFlYkrCGdYLsF1U1xlTd4oBWYZqqy/fMfDG2QJOD88huyb8dPeDCygIJFzVkMLm/uKVSRXWD/vQpEAZV0WcrYtax4V2XTq6HYlWWYzVYgzlmyLguuyvbx2Y0WZNW/nfOIheSYryyP7YHzx6fGSDVMEn6l/9EO+N4ruPEfKuRj8UnvzhATWuwla5sIP/212rp5MiLmBXw80IKQBxeev79Wjp47zZGGsCCH1HcuWRD26NxZG8hOz0hARgNToBXglfHklL2vjrxmkoZB0YRM7rbEh7bd6/63FDZIduHOSA5ex4cP6UZSY1HaQveEZsEqeIrXxcA7/jnaiZDngvPDaujn+8bkWOpF9CALYxehflcPBhCvZbYfLbYbKJ/v/6xJReNJNyoTAVtPOfF7CDfk7EoqVfWg3YvqxkXKCw9nXHFTGI+YrhDwdgC3Bnu+AxFzWwFA68PXjbYAs0e3oESXDb8Q==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : BQAAAAUAAADlg+MZNL4UeN0CScoq3Rxf5gUg+iFD8TrM0IfnmXTmBKnXFNpcar1erZwYI1JZ4ul1VlNr8SlCSqUmSE/t8z2z4c2+cp3Psfdy+iN4xUHIwl5xUoKjn7dnHGqeRB4bYV3hoAh6uZDhZG7DA8DKlJ0/EDI8mUO8cvaPRnoI7rwYYjpPF/Vtuayt
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_SansNom11
+    identifier : 0x2298780702b5bce9
+    internal_properties : BQAAAAUAAAB/SZgczU5viZnH9mpHj8/uy1C6LqBf1mf5RZjcGY2lktR6Xo/GaTx4n15qB3KkATTZCqy5mMMSWlhnNUR5ypk0jCBWQz9O/lB+vcaFpN0Zbu0QxJ7rl2r/QMjpX/85g9TgLZcFjqEWjQ5/Fi9ZlYz830+Aw3xObDTVdYpB+2ngAwrNa5uvjOw+fSC5smPsi6gWgCnNlv8MIEo0dSzR81G8/k7HgFHfdCkB13JEwh5QQKSbs06GhyEhfiBHbIdSvQoDZz9Bn7nmMe0NqZIVSovn2YOvraczv1xd6yrkmZfUibDPC+2RqhpOVMOaw0Wc0kauqZ85L/E3isViZLFO8L/R9tQe+kfSTxMBAwKuaZoyb8isXxpBTR/1jIZmUvPoQIQbuDaDGoN3YaRvh/BJyIrVmMfeFvXz5y7kIjrDpXvALkKn/bSe6mUJdqfUOMxny1hhA2Nu2xWesJiYWVjQvCnHJ+09aDx/CU+ggfhMkfop/I05B1UogHNhx68R8gg5X9RShYXF2v4JWf75fINF0CckxuaKS8RgrSL+q0ZT9ObHPY2+opkuBHarhQXhPduzIpT2ZsCki3XDHZS36ejKrlupO/JQiAB++VUG0bK/3uMOuXn2YnyeqC3b4DpW1B2j3MsuPPSpBi2OpbWSdPthCmBSFtQURavqU2XUe8dq1hM7JFjnfqE70DpYqyTyHAgdk6PIgqWU52w2AWLob7fSTEUjaX2ZsrpPwMOEq0F9H+o73klhv4tBMC8yywnITVs/4QFMGusOmGsSrI0I4/F5XPYpQxe6jO41tZvnszjrgOC3gFJnDOZ6Hglx9NKjOA==
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : SAI_Scolarite
+    identifier : 0x2298780702b3bce9
+    internal_properties : BQAAAAUAAAAD6/ds41T6ewTR8/OKBUGlikJEZhIXH9RK29n83PQDdXP/SkS+TVMOvORYuh6vtiFff+txaTPglrqQxi+vABBP+V9ySrHudGz7CeTitIWaEpffYSjZ4S23MIQh5T4bsa7MMfM517yVwgAk6IK6rkhjbQDFz8/HIq9BkdlVxV4hNioVgsH/XJMQKCCeVCfbopvH6HY8UpJofiEou9j+R//S+kW1C1I9ZXGs/t+IhFC8Vku1qhthU9/zKwRtIeB8i+3DCdEid5nEWV0j6WK/MdS2nHSnheOT0tPUHFS6A6oy5FQWmtpX6oERAeCsR40zvjaJZLYhvQsxlrF5Sjf9QRhUEXkZVrM0qiCqOjwCNalIig+okvZS/vToDMcLHLSg7pkYqAEAvoVbqQG6FQ1Lz3q0Fzaj0ghh1/TonozQ2XzVSODVuATQEmhcgLjyrTh13duAiw2KIA/NNRZbhDD6U5LPruhrCwVR9pL+SS+sEr1TnwIPScHrLmTqaNQaogQplIWuXwYRAQcauO6MLONkeq1ptzmolps+esHr3YzDyvC7hn6uH9qhnoOXiqavEq0K8GzB07ZcdArGCwU6dmk1rm8kYlBtjC88kL7BtqVhaMsHdLdIiTpxMZ0qptfrfvx3YtIeM8Dmb1LjgWVWDO0xc529RXyywyLDDhJZ2CjQ76QGjFChje0/glOglaIrr+z5Lt0tA9/hs802AmADW0tOhPEcbd5TEIJ4bVoL+hyYQv7yDF0iI6Gnl1+QTriCbimYjRugTdFGeIHgaNC/vmy42XHagd0q4iXLtvsyJCtac5TdO3ks1Skkes6fXpnkIMds7+49dPeISUR+heS2bYi8gN4VnM6aEuC0xjUBWArFoeok07nfSZYCDiZXDff7XXV6F65SMn1E8qJkt/SOlrXrY4KMSzii6tmDTaoE22/WHPi8MPbGTXVN+aHyS56RRUaeD2hveu3QdeVWa4D3JlglV8/l8YTsmTGFjsDQxnDg4JkokGkVRgRkUOkM0flDgb6pVL2Wd80ZIL9dS7YcvF7HHQoGeLiB5Wxq6614ZcW/04pd22y+M5vDGSWtvcjw375Fw/vFOxi3d4fXFHI04n2ZaOEwAXZbESYk3Zbt+2oy/BBFNSkD4rz0MGHke4o+PRycK5FFwFEoxKlhyA2rvOcsPHXIBJ0+Ps+M1GNaJ7vO+EMjug1JtTAu9kxf4QR0uZidrUzkjoZhHWJlZM5BHlyJsJcK/kcje9WcyAiVWu/Nm8rnHHT/GwLPf+SjRMqUnvoik9NwDdn6bm8Ty1wY3tdrxNzm18zGqobcLEP6DXZRVZScj5hBWUyAEvy9kHYgCn5CEj/0RhVvq/UUHpT/CS5XjTv/XGfvITrEunBr2g2Xy7GiXtMOJzEzg/9zCzqTGNjWxyd/P8WrfY9AgJMB0QbsZWUHWwBZJ/svW0jIgalUh4c3Xc3K6ilcpii4vmg=
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         //SAI_Reste_a_payer = Val(SAI_Total_payé) - (Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais))
+         SI Val(SAI_Scolarite) > Val(SAI_Total_payé) ALORS
+         	Info("Montant première tranche incorrect...", "Ce montant doit être inférieur au montant total de la Formation...")
+         	SAI_Montant_Inscription	= 0
+         	SAI_Scolarite			= 0
+         	RETOUR
+         SINON
+         	SAI_Reste_a_payer = Val(SAI_Total_payé) - (Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais))
+         FIN
+        type : 17
+  -
+    name : SAI_Référence_récu
+    identifier : 0x2298780702b1bcd9
+    internal_properties : BQAAAAUAAAA9r12gWILo7tZObMmgKpqdxDpxJnsIaxGDCq8GutQAQAO2GBPx5JPKLAb/6/EYx+TGZH26Yn4zS+4zRPaJ693vS8071hyR3zCeLrhEoYdiYHoLxVNwo8mgxcHJH/r18H+oquct/empnl3W2S2+VsmMXw4k2Ii8ei/ZvazwhA8lfdMGOrue34NZ3uxBgRL1GMK2leO0Sa4F1h8ms9g5oafmX3WnCR+v2J8rnzL4eGeLjh/+49YYHpTdnJXfX8vysLL35ys58LXCWfDv3hfJQWA/cmM4uUIk5trlaVwif/0fX4oK13eXNTXU+HO10piC+Tl8IbK6hSXETo91toBKMYF5vEBI/iayNmtQ/uc+oQjfi9bwbo7IsGgAKSdCsH/uxZ65m+KEZ/eEHUPOn6m1myq8GxItIRigrQE/q+4TIGzbqXOjS2tlR78WVtVSxY/7HqMxR73WbOSYDqOlfOxYQ3Co3TGOLuLZ0Wsrsd8PKpYSHIHlUAvVs7ALZmlhwDd1Qjff7BUVLrIArkQTOpo3z8KdCrxMv40qfVyq+LYpparCiOEowdGoRyHFucPpDAI9w5wNQWXm79l1nZUbd9fK/gOBVvf+zBCVjCc3bt9Xg5AzQ33pIH/2dNjf+KH6xPkteqLN86//xzQACHoAboe/GR+4ExzuGaYBIpOoqumFrzzPMzyfFkqLeICbsD7F+TwpmCvQA2xa4kseX82xj1/X+o7LLQAATU2SYugHcvmtWYAb0U11HXg2fEhYceHjx+38Ntmlzb/OJ0IWX4GWvBusAXmZT9mNnTlMsdQET+Ld+ogLcRpe/tVuTYFZ2YLBrfbVhwHn+FXOmjbMK0ZgDzBiOpoV+l1B/FLBfbAr+yL+nRo66seznDXmZnHazxy+QwOMz7Y6Jm6qCkikBh1/OOT2TlZHiBk82jLRTsbe6b2a3H1v6jvYFTp4xFLzXuisNNY8YzddfosajT6PvKhbPJjRWlh070JNP1dRBZ+MWAF3cshLtMjRLUjItkitxOaHsySdo+h3hYzs5kKX0DduWMBbBRN1bhWmRNNm/uEV0I3JBUDY55uVDxiO66O+KXaNXGE6GFWUqWCqOC5BjWXVZcRrM/wylw8m+37Fr/JJyuviflVDmypo2AJd1fKb/KcMj0ifTrv4TPlO9uTfOkkiIK1sS3ooNTT460C2s9VOTSk3j8Mhi+BxqIfasbU0uoaZTEjKlnnR3cmE3GmSBFRaD5z/TXqFuDrxxT43u8jHzN2hd+H+I2/K7eorjm7WB+Crix7bN+hWieYmwDZ8s1hL7BGXRLss7iQkF7VAK6Bc/Hb0v8GF2H2gMaHcTYlztC5xgfYzMweRBG6SPFHiItf7GYj4SMwusxhCqHkWN8qz1gccIaBxK7/oDRGRGvxrlminJ6JIlRb6ue0iYPFVhhnbzvgaAZoFQCvUWfiQzxznk4wihg==
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : SAI_Autrefrais
+    identifier : 0x2298780702a7bcca
+    internal_properties : BQAAAAUAAABukAmqxTPWOBA6/Hz0a1FMxZnFyWml8Q/7oIstmXavCC4vI+O2WLMlHcTu48wnBrVyCxXj42Uu8LrWRSfLhhrteXmLUq0/qrtGipnhV0zZqnYWz2DmaExSQU+2eU8qkDy7R+XZGDrRWMuLmRT5KPQIiqg79HIKchDBHMgLIfjbeBZNbeCgn2zKwmQ9ipmJo6iHeKWNsWIS60pgijugLZVkdxNj0eAfZsbNIZrZEk7wxEhdfOUYOeLskvl8pxeXZlpSYYl662lmwamcsC06PSrm6XhhLaemN5akBj/FuNAQrdeKoZ3MXFKCEOEjGsD11xq9Eo2+HSk3v6/S7Ib1EJdlHi/KSa9/LT9qjA19ybcTvQ2n/QeKlu6rzidap0t4Y9+8Aixkv5vyXiMnmU5gHoiUKY3m0oNdCNSq+Xu+tZILmZild728JaULVVjH1KIiReDP4/nwFamPnvvLWaRFIPBGCmpW6RyPka2OEhG3UtroEuMlafO8D1ctSmm5XAed3T+hN42hAdlQ6L+yigwWjFDgRJOBlBZ8ec4BdM+yA3mTZ6dzRMufb3LnQPoJjJdaJD54V3kYVoELpxnsAqzKffaFRfSkcWoMYWGO+GlZQJQAsgUzJCP/64T0nj9zQCb3K7xXD+2FRuSrX+s59WR0t0UJEO92uG/yMxzRD7UPfNSKfFPBvBsGjuEnjiOt///LgiV9GN/7FQPOGqokMadCbn0XrLS2DpHpU4TVfP+9JAB9TnBBtqxuGTSa8m5nB0HEyRo4qPYK+FAnOHifvbsouEjeulyai7AZptR51d8DLObTRKsbRdA3vHedAvVvMSKeBXkgXpYiRdE4onKjgxDgPRik2i7a62GozgNuOul/uN6MREHFVvcsmG/r4pfZQDJn2mGHVAIucn4tH0pWd1VLvzcr58grEyQDOuYOTyNwWPtZ0ci1Htm3YVEyeceWggDkayzYfMlCWabISBe6R9PBl3Qf+IusxvZW1Mqsgvufb+vGASNTD7bzujkHG63c9zCboH6ozn2LRv4DUoW0wtelq2Yg5syd5i7hyz6xIajqeKX5qowlT9rCywNzgBsyA/++pIE4Zp+zD7UNxi1AAIO05C5gZJRQgxTDah/kYC+2Kqk3bVNrS2EF4am1Jp8tqFkuObX02EURP/3bl4Hs1sC/GqSnerc1JGlBWGw2ZxvkO/cHWYxoiJzXjInPpQMg0Dcnuz5sQR8eaMf8gvaksW2O+HENO+f+C9qLq165dOWlDXtlisz/rIGAtwVqtbMd47zzEkUwWZPWqw+WcOsf3eDiKLBabGSJOHjTszJTtBkISu5nKGJwcXOHhAvdcqzfWeN0YKIqrSaZgcIjul9w0BwbhCLRbeyFbEcMofJb7jq8nHkK8RVz5yJwPU/E70hQV90eT/fITLdKhg3joG2lUvOXeSlY87u7trSzDbc41QznnFqS0otDPJ2qhPHb8J+tEXU=
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+         SI Val(SAI_Autrefrais) > Val(SAI_Total_payé) ALORS
+         	Info("Montant autres frais incorrect...", "Ce montant doit être inférieur au montant total de la Formation...")
+         	SAI_Autrefrais = 0
+         	RETOUR
+         SINON
+         	SAI_Reste_a_payer = Val(SAI_Total_payé) - (Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais))
+         FIN
+        type : 17
+  -
+    name : SAI_Montant_Inscription
+    identifier : 0x2298780702a0bcba
+    internal_properties : BQAAAAUAAAAT9XRH8tb5DxN7QdsZMNKnhcRoPL5dV4/vSXwx1eu25Ds/sW7dkjzWpXw/U9x39Z80OJmxEghZil7/E3xXlIcw1REJvEU7mC2pJjWkMc+xEc9UAqs4hJz2KcZ9CZc+nShhF5vzycNnBOhKYdpdPjiBsZr3iwlSdYaD3OCFW5zE7ObClY8obWicYrUELtDeipgUhBiasKI8leTwWlVSAwPwLV8l9ZoDaHjbPSLz9ACeABYBHlm+vWxuDGn8gcFtAJoInQdKFT1cD6fYZA8UI8wum1C70QWiOTjyoidj3voy2WVei0keqCBwqkn7XLIjbU7rJpu2W73VSXmKILwDvuUB5Mt0PVVbO2HEHE3fS80Fyd9/VxMEouB5IKcqZamica9iroZg0UOU8FETPUjalGosR+G0gj0h8q7c6as4p5h9dcLlGfEWCS8NU1Q3fnQIP7yxc4uM28HRzMmXXd730qqCNKqYLTqbW2fIumkNqKxK3mG5q6dOA7GPeHWdyhWX50/XG1vBzwEWXhXW5tJUNiYkAi9jkIJ6kdq92nka083btW8l/E23udpzEARrnE9+PEAUFY0O9uNrk4USkMCupVJbuYoU45IGYWVCDk/lbJCgxE0VnIV3BSjEVsEJRCqbS1Lr1fGrUjqf73dnA0wk0/234Pl+wkc4I2BNzTd/fKwGyg+voIkaBGErPrU7swOf7ud5xs8VdRWSAjaSz78aVqEZCPoOwLE3cDXq9zJqW+Mg8S3We9FNSC13v7HyVHDXvBX1DU/PJx/o/T1S4Fy7V6u5V8E78He4RxlSfBbIy9lWP6QMxjHSdzRK7+BqYiXdxEBhn2tTSLwlo2PSYmUPAE9ba0//MPAnT4znIdAA46W3dxLGu5xj73Ds4+KksY1e3WzwbXez2f1u0AsVhkpCqkI+gEHIlMdGj5fPAk49QwbUuGkGx4oOzM4velIpK8frYifVAbZXNIVhAfzZrqz4bh9W8Vwpw/FVzZMVOTpcAiYNxCQ8BGM2GaJcXGz7lIv2X6mNC9oU1UlI917f7SgMMumnZx2uV71cAHP68EcXe9hMASV+1MfVggSAzaLxhDZVf8ipNxRIcjRGD3qHryAfl30jqcE9EIeKcxzxc3pzvQRiDPCI+DI03PZu/6IwoYhdGJARjep2orxcdEKvOfXaVWPi93S+oQx4ma1H9loZrqLCgFVBxdGyi4pcZlrn1dKazt11qhAvX8r5h9vHVJJBM0xckDxDNKnG4JPir9CC8GZwgQWg7eIHytZb+zJV+S/o8CZUH1BM22NkHmMQdEyK8BNbn4f4W82AcazofjHsCbwzWLwyLWDn4mXmRMbRTeMGt7E3zjpcBm9OW1I2mw81hQlZLYeg1BUn64OlgUJ5Muu8ZnGb9Cn+sBx3qoZf9G1hniUZrGcHMG33SX5+Qlbobb0Mlt1tOgtfuOUa/bw/D6tDfdL0cdCZifz43YyabIg=
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         si val(SAI_Montant_Inscription) > val(SAI_Total_payé) alors
+         	info("Montant Inscription incorrect...", "Ce montant doit être inférieur au montant total de la Formation...")
+         	SAI_Montant_Inscription = 0
+         	retour
+         sinon
+         	SAI_Reste_a_payer = Val(SAI_Total_payé) - (Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais))
+         FIN
+         
+        type : 17
+  -
+    name : COMBO_Eleve
+    identifier : 0x2298780702abbcca
+    internal_properties : BQAAAAUAAAASl/zrzjKAUq6+K1ClW7U4xvQaesHs77kbONYh7mYwINpas9J3GLDJvv+qjfAvt9om5u+WbUWp02s2rVeDrKHDlBozZIJ2G18whmabms+hcAunRazTFnyJLGWfnVXgiKYvI9gBhm625a0cHuEV+E/Vb8Z7L8Mw7zPyEpfkOQFThJBEYbti5Z3MjQ8AK+NRo19TcGpTWRMbYgl5aZkbT5VcdeO2/YRv34kvLL02RXGNeHaYdPk+EFlO/vsjP6u4HQwlvnAQM0gU8c7z/o+fZxk3mQfRXGfE1YXgonp/uc72nKrcFEIhGij185Fx+gTgmOXcnxsZXPrJsRHIL2RTaHj2rAcj9p/bmRwgOmsgT5zoUZiyTMwFubbF5Seo/SOkw4LwkaqIrsQRqlDPwfyHB3tfZIJLDkuZA56A9JCNN6OgpFiiQ7rzSOH4DgcY2cSVcSQEAuTQ3ru3qB2Jruki730UAPredB8wVX1EWDwB1mNCrO6rySbj2j0ce2KPQv5B06NhwZ7s0UN/WhGhYnU19Wr4pSqh+kDM/+zeY53qILpw9PVVBFXIE90rXi+kNgGNrptZdP62g42ef0NljdV1fNxY6rGDgouBeK6kozDRnolh7Msai8F327Cqk1/7ceNFYM487NH2cHE6rI695PQZAUEYI7VCDn7iy6EJYNo5n6EcQH3/1bEXF6+bp0XxDqP45mKdw3x4HG7pLI9M03u/5oXS1CGPCY8KYJ0Hw4b3b03P3bWoETicWqVmwsdYl1xZ1Es6j5p3U1DDyjZRrGc63PElx/IQyydX5iGGY//HwTf+N2uqxT/2cs0Z/M2DxN9+2k4J1Cxi8fYv51M/kAC8384SS+pc7OZaaBgIeF6+cpCJuezuHojsuplyYufzifGbOQkuiHgmatdz7fG7Z5FNIkYs97r8nX926aPf/+zgrszd8zpNU+h6/9fTJLmnH9biAkxQdchW18RRxqVTlxS/9ZFFk0YacRoliMWIemL93Ipa7qvO8rhzekYwDfGsckuO9KC/SquHUsBXqYksRjKNO2y/jE+OlON39bW6hbsvmSsf8szkna7nPe9tFm5r912PfRmEFJmhXgWs0WU/IMqy3uH9WkjFvDimX+HFqmS0AUAzy3lG74TnJZo1Kb0D8Vetgd+/mGyrFJhEItokWpmVmJZyjvJoWKp4oWMzQ4hHB7OYVCJdZ14SUYiToYE2S86KtFX1KWlV80y9aee6zdvioQWFz0TVWY4025sraZfnqhNDtTXvrD+vJYTbzES2Wdeki8HgVoYcnjkYy/DttLpXOWaFpRMrjcXtLHEvgjA5Wz1j8edMbpjZ7F1LPLeXUx1DiImXs4JTyGmXUPtqA8tzmYhM2hBehTmSkN03b1NAScj9thXRnK8sJpKIPsy5BShu1Ux5xbk7Ey/BrEGBoNC3XmD5Uc2dHZfmo/dtQ4dPg9I+BIb4Z7CWAdB/ynHEhUEEXskBZo0+qNEQPWbF2c8+QymU6u0SaDO5UQ7dnWS35u2+gGXnRlQR+ml/ME8LnU1TW9ZA4yABwXD39sLzc1BdNhjH1tFHKzAOdAkC9b3E3eqBZZqstoVU/JWXiuemyq6zSjanGWdExCnYXYaZxFKbTmFivNsf8r/Kp04wP9ijNgIsakJGrd1XnGoBEGxC1e0G06SLwJBSN1M3MC4tpug0LqWFc2l+LPsC75Tn7gD2ivmvcf07MSYYP/rBhoN+7myaS6XyqcSU89AEK0/Vtbr7iZYJ3ORp9RxWwmWa95efIlbNoW3NjYOz
+    dropdown :
+     internal_properties : BQAAAAUAAAAG8vrkg77gs13WfxpUTKB6awz7wJF/rRcnBJI4RaJtM1QqJEziUD8BQHy9QD8XQZIM7FRADPQGNw8j8MGXUopFySLGCzgfDg9dQhhDAl1BKeX7A/p+KOXlCIO3MjQ/s08a9lIymgu/CHhGAVR4KPZHZrRw3yqi9TKS8n6ezk0eKENan/rkta0Lvv2nADprhLaeN607IInOHXG960loKEzQOlI83Fc1vFQ8tBSFY8shkNfqW0WB50GrvFGLWSynEyXZVnwar8MTwptP9eVdVc8rjg6j5lnVUaprjKyFuN22cw6Ss9bXpVfeJ5NLYwx1CH7QSR44/DecFvJS4fTChIUJcgwF8FPIiAlUzuTMh6+W0bGSbzD5pxfq3aB6cOY2ZLkre9n5bQT67kGO9BffDCWDb5acRaIavwDMAKHlh+0dy2e9CSZB12kaHuzjkvPHwHqJ/vUKfhIB4vwwg15//a5ciKnZuNBJuzl/5WoSQ6Q5BIc/ot8GjkRBzSep7JdQAxLvORK1FhwaijzUW7QsBUdBIOHMluVH4j45z9ItI8NwsgVIK6fyAOBIt+UGrlGMPXilnRoVOX28Zcu037UMbIyG7mfm/uUw+zo+I5HH7hArudbUxbMVKI6JCS4MfHQ6g7xTdqy5hupbPoCM7REYLZSo3po3bnoKRq1Lwc+7W31WKbvHYATL2dD6RQzvgBxmXqVOdvzhgsLnt7XQ+24pRxQ1rH69kLrqhXgGhakj1VF+xgI85znIN+XOceIgdByg+p11+BDwlfASBNw+AzwXawAz4g==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1+
+         si SansEspace(COMBO_ClassesSchool..ValeurAffichée) = ""
+         HLitRecherchePremier(Eleve,IDEleve,COMBO_Eleve)
+         SI HTrouve(Eleve) = Vrai ALORS
+         	HLitRecherchePremier(Statut_Eleve,IDStatut_Eleve,Eleve.Statut)
+         	SI HTrouve(Statut_Eleve) ALORS
+         		SI Statut_Eleve.Statut = "Formation Exonorée" ALORS
+         			SAI_Total_payé			=  0
+         			SAI_Reste_a_payer		=  0
+         			SAI_Montant_Inscription	= 0
+         			SAI_Autrefrais			= 0
+         		FIN 
+         	FIN	
+         FIN
+         sinon
+         	HLitRecherchePremier(ClassesSchool,IDClassesSchool,COMBO_ClassesSchool)
+         	SI HTrouve(ClassesSchool) ALORS
+         		//	SAI_Montant_Inscription = ClassesSchool.Inscription 
+         		HLitRecherchePremier(Eleve,IDEleve,COMBO_Eleve)
+         		SI HTrouve(Eleve) = Vrai ALORS
+         			HLitRecherchePremier(Statut_Eleve,IDStatut_Eleve,Eleve.IDStatut_Eleve)
+         			SI HTrouve(Statut_Eleve) ALORS
+         				SI Statut_Eleve.Statut = "Formation Exonorée" ALORS
+         					SAI_Total_payé			=  0
+         					SAI_Reste_a_payer		=  0
+         					SAI_Montant_Inscription	= 0
+         					SAI_Autrefrais			= 0
+         					
+         				SINON
+         					SAI_Total_payé			=  ClassesSchool.total_a_payer 
+         					SAI_Reste_a_payer		=   ClassesSchool.total_a_payer
+         					SAI_Montant_Inscription	= ClassesSchool.Inscription
+         					SAI_Autrefrais			= ClassesSchool.Autres_Frais
+         				FIN 
+         			FIN	
+         		FIN
+         		
+         	FIN
+         	
+         	
+         fin
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : SAI_Total_payé
+    identifier : 0x22987807029ebcaa
+    internal_properties : BQAAAAUAAABB8xlBGZB7azc/VMcGkCNKVp3JdWelAWswbxLO5QPQa5Bo2eollI8wXEavCDT6zXxbf3JKL41l0UpTgiXpZJtnlW0M8dTs7FW34l5WJDiHWK5Lp+dCRkKpOM/PBBzEo6Clg7MoHrpAOgi4MDMNyW3iTXoKzhmRhN8eiC4sulFstjlusIXut5Na+pWjnhwK0jJcifP7RhnFN1mWHTUN9pMfH3X5X1ycWCpx4aC82tiY6Pr4YqkBLXd1MS7EOFY6ZPeQxYOyGzMp0Gtf8Dm/xblEDf0Z8WquLVgdCDn+0HlprWA6qOxDo+RFLMN80Ih2eSexXnnC0848keK+iCDb69k045FUZc/Kwch8s9n0ioDq5w5ObCDz7wTcuq5w26wpryAW4YUeABEss5zpyMwlRboVpCQoJrjlLXQwyhct8hSbVTW/ZUzkR0GL9nYMxUG2OlRHdhGBMVmQyJm4uJZJheF1KpPEcrBBSZ8wjvvVO8qNMjOYolcKtqhBFpmUbbTaOFJQ+u4a1YV4JKW3lm8EdPacUJCM9SBp+8o92Kacp7O6IAmFaA5KMyqYggI6+Jazt40q0BoI1chzt2w21pbZHtXYYKSyWPFwrlTFcCg5atJJCUzsM3GXlWREeBpUClXMTi4cAfTSSLXstUsB2tWQfhFdrox2c1Z+RZR07t106NHMARVKAgJKdRJB9XRYUSSfLSzteikLsO3n5t1yjfFVHDVN/sS0HG+qCL8ley7DHTU2zMRzEV8EWCnpX4xiR27Rcv5OsKDaSADvII+wvEk996o2rqgdm/OtGiOn1NhAsxJFoqg2i7ouK0Cl23v0ZF7pYs+yj4DUmnfTi2jvCV/UfQ2k4w8xn3Ywuzg7sqTJhed4++X0spipTcH/JXO1V3ft/vUmLoyEjVODHsnZoDqhRK1VBRbdLkoj5uR8fBZpv8nRmHEzcz8iSohrMX2OcGYD7h9zlxX/HU1hjcG6Sj8TnmfZiTkO82lRqzMgk02LvczQmldTvLKSGXYi2sOH3AVxaTmPCkYBeEYTY782SpLAiB+ZmFHlho48qqamFWbQjexdeky889q1kSdvQuQ+93gK7vKYICT8BlwcKQVDRQWIMgz+Qh7uNu9g7cymdznAX9ZEDTRXD/7Du15UyxkCCYqJQ+fLq5rLa0O1qGTdbxcvbXStP80RzmWqE60kVxq7XmkGPq0kl2yhq70rGtLNthVovwCmSzh/k6ZeHF2DXIO8yNwmF4b4E19s9dj/cgWE1zsfAgEo7pd3VRmeJYiOvORwxj2yS0eNZfwYOu4yitNvFI6eGvB346MCf5nnm7KCIpS69A3NmHi5VtK52R8HgOCkn7W4QLzgBpIEBA/oZiCibF6mafJnPbOu7Jxp3kqlZ9GF7KvWXOU4qDjvKF9ARv3/4BYLY42oHahqoyct1QncJYCyYnqhWn3LRQhcPSNfDxoBl2w4qeeHDsLe2maT9wM9T97eI65MgKP6OZmMtTGyyBDaJRrX8U2ZoZn+25tA/Wzq8FTQ
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+         SAI_Total_payé = SAI_Scolarite + SAI_Autrefrais + SAI_Montant_Inscription
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+         SAI_Total_payé = SAI_Scolarite + SAI_Autrefrais + SAI_Montant_Inscription
+        type : 17
+  -
+    name : BTN_Valider1
+    identifier : 0x2298785a02c1fec0
+    internal_properties : BQAAAAUAAABJHhlx19LKGsSvB1vjDCGPLBHzLyBg/KeVgSDTQCtyLBcrIgayPul329ba1hFYz4HcdhKgQArFxSAmZ2tZBv5iAs72jTnVx0fgDMUfwpflz3ZdhYJqsjSlJY5vBfMB+99m8VsxRmlNJVT4kVC95y7Qj4qB0uGP5QqC5/6uaxk7x/SFZrxdf4vC9pPc8dWazLSkP87cFo82B66e0uGRf9zj6ujt3cssRq0mAP8v0HP7LJvXEEL4ukU9iMR29Cdru2m1dbniHxgjYzb+lvwWBdMG6svAei64k4Ij0kqA65OPUB3gxr05pn0bs+EIfT8CSvyCUMJ1rX+D5wA7d2u+pudCrNXPzPYZrXg7C6MfhPmQOeYJhe1aDJ2JT1ghfmO0UCAbgIQBAo5uVFNG0BKLN3lufQxLqjJHW68xU8HrcRuNK1oEMFfcdlhdf3TmeLiglSdEB+8uWl4NJyhvAtQ7LmQQg5JIy0KTkHYXbC0JuXSdwa65zZJZqV55RrB0GRixdANhtX9bvCtAdfvDHdTe/xsabKqy6YOs9Kz9Vb8mjBJ6ZWABR8YB0ffwuQq0pyJpcLWv2+O6252K6H0RlTOdlDzr4LYUBAmtBS2/4ydQCOWG7y6jSEdtzkwEq5C8XVYmM91bjtuiU8oI+92q+LmKPoGDB72Nhhs3HzFozWidAwnSOLEvJFIzIUsMhfmFj6A0lTNRFfVCdk3LSxlYo9qpRjaKX4sxkgIL37uAOxHn8nYmM7bG6LvdCvBNEVElPZzTMFUH/zudYp9BS3Cjbi1n5osM7EGhRL9uOKBkjebT2Fg9sZdH9VLTm+XIE1r2/ZjI5NTis3mKJg996g9AyA==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         nVinscription, nV1tranche, nVautre_frais est un entier
+         SI SAI_Référence_récu = "" ALORS
+         	Info("Veuillez entrer la référence du récu...")
+         	RETOUR
+         FIN
+         
+         SI SAI_annee_scolaire = "" ALORS
+         	Info("Veuillez entrer l'année académique...")
+         	RETOUR
+         FIN
+         SI COMBO_ClassesSchool = "" ALORS
+         	Info("Veuillez sélectionner la classe...")
+         	RETOUR
+         FIN
+         
+         SI COMBO_Eleve = "" ALORS
+         	Info("Veuillez sélectionner un élève...")
+         	RETOUR
+         FIN
+         
+         SI SAI_Montant_Inscription = "" ALORS
+         	Info("Veuillez entré le montant d'inscription ...")
+         	RETOUR
+         FIN
+         
+         SI SAI_Date_d_inscription = "" ALORS
+         	Info("Veuillez entré la date d'inscription ...")
+         	RETOUR
+         FIN
+         HSupprimetout(Etat_Recu)
+         HExécuteRequête(REQ_Verification_Inscription_vrai,hRequêteDéfaut,SAI_annee_scolaire,null,null,null,COMBO_Eleve,null)
+         HLitPremier(REQ_Verification_Inscription_vrai)
+         si pas HEnDehors(REQ_Verification_Inscription_vrai) alors
+         	info("Enregistrement impossible! Cet apprenant s'est déjà inscrit dans la formation: " ,REQ_Verification_Inscription_vrai.Classee)
+         	retour
+         FIN
+         
+         
+         HLitRecherchePremier(Inscription,refrecu,SAI_Référence_récu)
+         si HTrouve(Inscription) ALORS
+         	Info("Inscription existe déjà...")
+         	retour
+         sinon
+         	HLitRecherchePremier(Eleve,IDEleve,COMBO_Eleve)
+         	SI HTrouve(Eleve) = Vrai ALORS
+         		HLitRecherchePremier(Statut_Eleve,IDStatut_Eleve,Eleve.IDStatut_Eleve)
+         		SI HTrouve(Statut_Eleve) ALORS
+         			HExécuteRequête(REQ_verification_exclut,hRequêteDéfaut,Eleve.IDEleve,COMBO_ClassesSchool,SAI_annee_scolaire)
+         			HPremier(REQ_verification_exclut)
+         			SI PAS HEnDehors(REQ_verification_exclut) ALORS
+         				Info("Cet apprenant est déjà exclu....","Inscription impossible")
+         				retour
+         			FIN
+         			SI Statut_Eleve.Statut = "Formation Exonorée" ALORS
+         				Inscription.reste_a_payer				= SAI_Reste_a_payer
+         				Inscription.Tot_payé					= Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais)
+         				Inscription.Montant_Inscription			= SAI_Montant_Inscription
+         				Inscription.date_inscription			= SAI_Date_d_inscription
+         				Inscription.IDClassesSchool				= COMBO_ClassesSchool
+         				Inscription.Classes						= COMBO_ClassesSchool.ValeurAffichée
+         				Inscription.Autrefrais					= SAI_Autrefrais
+         				Inscription.Eleve						= COMBO_Eleve..ValeurAffichée
+         				Inscription.IDEleve						= COMBO_Eleve
+         				Inscription.AnneAcademique				= SAI_annee_scolaire
+         				Inscription.refrecu						= SAI_Référence_récu
+         				Inscription.Scolarite					= SAI_Scolarite
+         				Inscription.total_Formation				= SAI_Total_payé
+         				Inscription.V1							= SAI_Scolarite
+         				HAjoute(Inscription)
+         				Recouvrement.AnneAcademique		= SAI_annee_scolaire
+         				Recouvrement.IDEleve			= COMBO_Eleve
+         				Recouvrement.IDClassesSchool	= COMBO_ClassesSchool
+         				Recouvrement.Eleve				= COMBO_Eleve..ValeurAffichée
+         				Recouvrement.Classee			= COMBO_ClassesSchool..ValeurAffichée
+         				Recouvrement.Date_recouvrement	= SAI_Date_d_inscription
+         				Recouvrement.TRANCHE_PAIEMENT	= "Inscription"
+         				Recouvrement.Montant_du			= SAI_Total_payé
+         				Recouvrement.Mont_paye			= SAI_Montant_Inscription
+         				Recouvrement.ref_reçu			= SAI_Référence_récu
+         				Recouvrement.Reste_Paye			= Val(SAI_Total_payé) - Val(SAI_Montant_Inscription)
+         				nVinscription					= Val(SAI_Total_payé) - Val(SAI_Montant_Inscription)
+         				HAjoute(Recouvrement)
+         				Recouvrement.AnneAcademique			= SAI_annee_scolaire
+         				Recouvrement.IDEleve				= COMBO_Eleve
+         				Recouvrement.IDClassesSchool		= COMBO_ClassesSchool
+         				Recouvrement.Eleve					= COMBO_Eleve..ValeurAffichée
+         				Recouvrement.Classee				= COMBO_ClassesSchool..ValeurAffichée
+         				Recouvrement.Date_recouvrement		= SAI_Date_d_inscription
+         				Recouvrement.TRANCHE_PAIEMENT		= "Autres Frais"
+         				Recouvrement.Montant_du				= nVinscription
+         				Recouvrement.Mont_paye				= SAI_Autrefrais
+         				Recouvrement.ref_reçu				= SAI_Référence_récu
+         				Recouvrement.Reste_Paye				= Val(nVinscription) - Val(SAI_Autrefrais)
+         				nVautre_frais						= Val(nVinscription) - Val(SAI_Autrefrais)
+         				HAjoute(Recouvrement)
+         				Recouvrement.AnneAcademique		= SAI_annee_scolaire
+         				Recouvrement.IDEleve			= COMBO_Eleve
+         				Recouvrement.IDClassesSchool	= COMBO_ClassesSchool
+         				Recouvrement.Eleve				= COMBO_Eleve..ValeurAffichée
+         				Recouvrement.Classee			= COMBO_ClassesSchool..ValeurAffichée
+         				Recouvrement.Date_recouvrement	= SAI_Date_d_inscription
+         				Recouvrement.TRANCHE_PAIEMENT	= "1ère Tranche"
+         				Recouvrement.Montant_du			= nVautre_frais
+         				Recouvrement.Mont_paye			= SAI_Scolarite
+         				Recouvrement.ref_reçu			= SAI_Référence_récu
+         				Recouvrement.Reste_Paye			= Val(nVautre_frais) - Val(SAI_Scolarite)
+         				nV1tranche						= Val(nVautre_frais) - Val(SAI_Scolarite)
+         				HAjoute(Recouvrement)
+         				HLitRecherchePremier(parametre_logiciel,lib,"INSCRIPTION")
+         				SI HTrouve(parametre_logiciel) ALORS
+         					parametre_logiciel.valeur = Val(parametre_logiciel.valeur) + 1
+         					HModifie(parametre_logiciel)
+         				FIN
+         				info("Inscription effectuée avec succès...")
+         				ferme()
+         				sinon
+         				Inscription.reste_a_payer				= SAI_Reste_a_payer
+         				Inscription.Tot_payé					= Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais)
+         				Inscription.Montant_Inscription			= SAI_Montant_Inscription
+         				Inscription.date_inscription			= SAI_Date_d_inscription
+         				Inscription.IDClassesSchool				= COMBO_ClassesSchool
+         				Inscription.Classes						= COMBO_ClassesSchool.ValeurAffichée
+         				Inscription.Autrefrais					= SAI_Autrefrais
+         				Inscription.Eleve						= COMBO_Eleve..ValeurAffichée
+         				Inscription.IDEleve						= COMBO_Eleve
+         				Inscription.AnneAcademique				= SAI_annee_scolaire
+         				Inscription.refrecu						= SAI_Référence_récu
+         				Inscription.Scolarite					= SAI_Scolarite
+         				Inscription.total_Formation				= SAI_Total_payé
+         				Inscription.V1							= SAI_Scolarite
+         				HAjoute(Inscription)
+         				Recouvrement.AnneAcademique		= SAI_annee_scolaire
+         				Recouvrement.IDEleve			= COMBO_Eleve
+         				Recouvrement.IDClassesSchool	= COMBO_ClassesSchool
+         				Recouvrement.Eleve				= COMBO_Eleve..ValeurAffichée
+         				Recouvrement.Classee			= COMBO_ClassesSchool..ValeurAffichée
+         				Recouvrement.Date_recouvrement	= SAI_Date_d_inscription
+         				Recouvrement.TRANCHE_PAIEMENT	= "Inscription"
+         				Recouvrement.Montant_du			= SAI_Total_payé
+         				Recouvrement.Mont_paye			= SAI_Montant_Inscription
+         				Recouvrement.ref_reçu			= SAI_Référence_récu
+         				Recouvrement.Reste_Paye			= Val(SAI_Total_payé) - Val(SAI_Montant_Inscription)
+         				nVinscription					= Val(SAI_Total_payé) - Val(SAI_Montant_Inscription)
+         				HAjoute(Recouvrement)
+         				Recouvrement.AnneAcademique			= SAI_annee_scolaire
+         				Recouvrement.IDEleve				= COMBO_Eleve
+         				Recouvrement.IDClassesSchool		= COMBO_ClassesSchool
+         				Recouvrement.Eleve					= COMBO_Eleve..ValeurAffichée
+         				Recouvrement.Classee				= COMBO_ClassesSchool..ValeurAffichée
+         				Recouvrement.Date_recouvrement		= SAI_Date_d_inscription
+         				Recouvrement.TRANCHE_PAIEMENT		= "Autres Frais"
+         				Recouvrement.Montant_du				= nVinscription
+         				Recouvrement.Mont_paye				= SAI_Autrefrais
+         				Recouvrement.ref_reçu				= SAI_Référence_récu
+         				Recouvrement.Reste_Paye				= Val(nVinscription) - Val(SAI_Autrefrais)
+         				nVautre_frais						= Val(nVinscription) - Val(SAI_Autrefrais)
+         				HAjoute(Recouvrement)
+         				Recouvrement.AnneAcademique		= SAI_annee_scolaire
+         				Recouvrement.IDEleve			= COMBO_Eleve
+         				Recouvrement.IDClassesSchool	= COMBO_ClassesSchool
+         				Recouvrement.Eleve				= COMBO_Eleve..ValeurAffichée
+         				Recouvrement.Classee			= COMBO_ClassesSchool..ValeurAffichée
+         				Recouvrement.Date_recouvrement	= SAI_Date_d_inscription
+         				Recouvrement.TRANCHE_PAIEMENT	= "1ère Tranche"
+         				Recouvrement.Montant_du			= nVautre_frais
+         				Recouvrement.Mont_paye			= SAI_Scolarite
+         				Recouvrement.ref_reçu			= SAI_Référence_récu
+         				Recouvrement.Reste_Paye			= Val(nVautre_frais) - Val(SAI_Scolarite)
+         				nV1tranche						= Val(nVautre_frais) - Val(SAI_Scolarite)
+         				HAjoute(Recouvrement)
+         				Etat_Recu.reste_a_payer					= SAI_Reste_a_payer
+         				Etat_Recu.Tot_payé						= Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais)
+         				Etat_Recu.Montant_Inscription			= SAI_Montant_Inscription
+         				Etat_Recu.date_inscription				= SAI_Date_d_inscription
+         				Etat_Recu.IDClassesSchool				= COMBO_ClassesSchool
+         				Etat_Recu.Classes						= COMBO_ClassesSchool.ValeurAffichée
+         				Etat_Recu.Autrefrais					= SAI_Autrefrais
+         				Etat_Recu.Eleve							= COMBO_Eleve..ValeurAffichée
+         				Etat_Recu.IDEleve						= COMBO_Eleve
+         				Etat_Recu.AnneAcademique				= SAI_annee_scolaire
+         				Etat_Recu.refrecu						= SAI_Référence_récu
+         				Etat_Recu.Scolarite						= SAI_Scolarite
+         				Etat_Recu.total_Formation				= SAI_Total_payé
+         				Etat_Recu.V1							= SAI_Scolarite
+         				HAjoute(Etat_Recu)
+         				Etat_Recu.reste_a_payer					= SAI_Reste_a_payer
+         				Etat_Recu.Tot_payé						= Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais)
+         				Etat_Recu.Montant_Inscription			= SAI_Montant_Inscription
+         				Etat_Recu.date_inscription				= SAI_Date_d_inscription
+         				Etat_Recu.IDClassesSchool				= COMBO_ClassesSchool
+         				Etat_Recu.Classes						= COMBO_ClassesSchool.ValeurAffichée
+         				Etat_Recu.Autrefrais					= SAI_Autrefrais
+         				Etat_Recu.Eleve							= COMBO_Eleve..ValeurAffichée
+         				Etat_Recu.IDEleve						= COMBO_Eleve
+         				Etat_Recu.AnneAcademique				= SAI_annee_scolaire
+         				Etat_Recu.refrecu						= SAI_Référence_récu
+         				Etat_Recu.Scolarite						= SAI_Scolarite
+         				Etat_Recu.total_Formation				= SAI_Total_payé
+         				Etat_Recu.V1							= SAI_Scolarite
+         				HAjoute(Etat_Recu)
+         				HLitRecherchePremier(parametre_logiciel,lib,"INSCRIPTION")
+         				SI HTrouve(parametre_logiciel) ALORS
+         					parametre_logiciel.valeur = Val(parametre_logiciel.valeur) + 1
+         					HModifie(parametre_logiciel)
+         				FIN
+         				iAperçu(iapZoom100)
+         				iImprimeEtat(ETAT_Reçu_de_Paiement)
+         				Ferme()
+         			FIN
+         		fin
+         	fin
+         	
+         	
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_Reste_a_payer
+    identifier : 0x22987807029cbcaa
+    internal_properties : BQAAAAUAAABQlqxyADxe/Ntb8D4pWt8BVF7kt4j9lBh40v5Wo17b/bcZcb8S00dSPm7bV/fMl7i/OnPFez0yttNDnafYkJKDXN7Ke0mU9qt7XBRK6n1cU2g78OpGD8v4C1xQIsu5vYm0ia7lREItuSDMOJpgjDhYi4fEeROTRKSgIODU3hL2TO2KvwzYG/HHuE1XqYcvPgfjWiZf+J5dVwp+k0Um/LKI9P0AIFm7JeAwH1ksfJYnCWG2bJ5YT14b1Pn+Kw6W0CB/7aHug1whIJU0vHU4Ta7Bs1IzuP/xGMWTJfKBEuEC3CmK4Q+Kb7NGhwQCAX2UFwLhh+ZQhCTjf/2qoEjmIl6L4cQwOQVbMzDjhwUTW06P0kqN+W79YgJEspSRLB5E8hDeyUsSvoirgjZn0hZz7/4gN2jtnAs6vIU9NjdO9MDrFLlyAiUT0h3S8tH4uDeBCHRiCvTCWs4j9gyk1NQmcvTcpERmtmin1i+9NKaiprSFERRDNIQEh4yx5o1PKvVZ1zX3k0j83oltDzZ9Gwt57L1nUGw9T7kTV4GUjLrvREpFrTtUaQBZzsxj29vzUsVkFfDxY1AgbgR/0Vbbp+DtlNMgQbXSYbghwsiDwJ9HDb4kD/hCltYaZH1qGVmga7t8N9ayfdSDr1A16wMTIbCXviydIXdwA6w5f55E6Z5sRcS89HAnUp7JRbn4+e9sHbh7v5tP0+LLbYbNLqqGgdcU5WTAKShYjHzP7/3k1dUyw3eTQfP+K4EkGNmpywAQBThNDtCYn62vfuO9qqcCnvd6tMgU5AcUdyilQuh85J4KeMZOLXmCTQjfA0LcOF9thKIINC+2hwNWl8CZnBCNm443aj/V4UqTKBJ1I9IOSz5la+CjHy8VezPHXyL+E8yZBPh0RZrC/AZn5481txsthRgeGADR6ZOdV3hAhz2FuTJiRxSXt5HAz81j0jQ2ZTBPuWzuv0kBmQRP20A4U4o2Ls86y2BquV5d3ufiZ0Cuhcg3z7fa1Lv/KFeW9YqGAQwGD2I1Z6I4tUkvnGn0bNDgkx5beRaW/Qm38GgAlrkSulFWxjyYE1vJ+EPMas5zYtY8nH01VEjKUokM+zqv/nlK5B6XtC3SdECR1hLCjBLTTMrjOTOOA0jlXcPEkZZsWY76RlE1OBlEmgiiMUbaurHnRLSn28px8oVLmFBg/QPn8dPTsAsV844AdcxsSWyQ7I5N055sYqgFEb40DLALZPxfDgNXjMJKPOlqFK0UA8xXqA2RCpuJRyuB99+SuE3aTyPWtwhbU4DZqV3eiQk68Kdv+szHACjYdeiJJMm2uZIHS/WooNgZP1rHG19AqHiveLsNgy1eoshhF5WNUq5tOkK3qBH0nFgY48O3IsiqVuHDOQP1EbsnrkbehixPman9bCRVPoKLME5wN7tok31zlCmRVr+gdRAmjnSu+sKt6aGsE3FDoix53GyAiltt6IgCQCE8dmIztaLUq9ykx1oe+QVPux3XKEHNQ/X5O6RWaAGiVtA=
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : COMBO_ClassesSchool
+    identifier : 0x2298c5920407a23b
+    internal_properties : BQAAAAUAAABLb6eGj6jKe9XX24JvZUMhe+iMPE/icvl2fZQdpU/mmPZPG+6TtcJ7I/wOrZG33DytUbtgNMCRmsVqNeXIY2iQJoyxIGk/Yiy1fow7g8ViBwEOoIZfAROFdp03olYgTCZmfr59I4pK4znkeKbm2XieiaqSgsW75eiBrBMgrYUCkHYCrFmaPT1pDhbEcjFWh3IHn9oH37QU/AhG89k18JKHmT5sE4ieeeTK5aW8grIas9aEBHi5fsNLD4gHZo0SqSB4yVBOM3fyC4QefoxbBgWaIJehhPhMIePIQQCyK1hI+u4WeezDjSpKOnbHo6OJ55PCrGkhD9rlMM1AvBKhJ3kcpIbTd/UToRCw/tjtQ8YYT1nVL/AFwC0bAfYgCS41fw9VxQegxqx+dJnpbg/s4+e2Rc/9B2k/1Yax84gvS+YLvocbUl8sJWvG3sixYHX7UjMLXMcLZC/J/hbx3F3gTMK8L8NbeXmP56EstaQZktSnabZDrTopu6X6ALgwThDMxMK4+GOALouuC6lSiUn6999Jb8kyBw9XhPpbdx+i+4GHQYO+xMtFVPxarZNSuOy+1P0/vJrj7xZCrKLex+uxC3InmUnilYjjyXDYzf3xqsDeRGJMpC9/1J7rIT8SpxBrw+6rjTymcaSlF/bCybx0QegzN+3NjD64luWK/dw1W4edhGOR2wv+gTtsyEbqlgTQh9jb7RDx0fjxPy7ccqKOh88kgSgP0oY1acTeIWfDNFQNMfsuqAIOUpRroeuxB8d3smLPiq2CLdtCzRywQWtfjX/IcX43S2rgbhulbwQg0yO/Z270D0VVMt0/0O50bjFvwMNwy83XfgWYUZb0wHxxFZEtFg6LRblLrrZZUB90Lz2CiHaTXEgEnrOjR7oc6HjG3u5KR44aMtfR8T2A9jHoiWES00qD4TYUMKivj7oHYbIWIegY3/4n8kL1YA9IjH9POta1sTFtkMZxANeU3fN+DMmExrkTKH6qSdaxQhmGsbbpwZI837d/1KOOMdjpRqce3xFSj5RzCjhJBFQAmMtyBhqbENh//JeQihE/eoF+SLj1Pja6d/zrChw82yZgzBFBAf0ryYOOc8F3gY5UGijYrPLv2Y3+nkSp8e7g6Dow6xMunGRTzUvbsR/nyyMUWdxALL0EYmCTye73nqQIv5uMadf2Z5x2K7SazD6hQmzKgA1wlewgwndHfRiRoI61jNceJbCgcZ5GC0jAr+heWzxFNIqtIO3u22EqdyxI12sJZh/RioV9wbX8nyINyJlmfNeBBOzrJEohpR2gOy89pSkmI1lIPt+Hg9aDhF1HJlnBFWDOIcDm4xtcyziBaVJFarobCRofMI/mDVhNZZ0562AOUrB4ovN12H4KkoXIQL25Ju+ca+xGHgNAdLS9X6OnIGCRFlwW9mymdjM1BAZ6XiupCwceQU7HxY+FFAZfrqumS+3RWcYLib02H/BER/XUP8KATIRsp8MmPO8n4q69VC7FuuLI8cJo7C8L2YuHuTHRt/0zgVDuFfRXWdgvefNfz6E3FDTul1FrOiheY6+Tg281ErUnLzdO1HGGlDFu6mZg+8VczkJEnO/xB6+gHva5QJ52LchxmJNPgcm/JSF4rIjMN2w22zLK6z4MLXtysE9N3YfIC6yDaEyKQGcO97Fji3RwCJj6a8QfMMl05Euz0u9VrxPdryUjehshi/oGP4HDf3FOCM1Hxv6ttE1JUTArTXbeivaFEKDC8IXQVs4weQFkhPIRfLorU63QA9gkVoCahK3hQ6WIADh4rpp6EG/vJQzV1e2nv4aNxEgJeKHROUEAvUHHyIVGex9hDxWRXXrpyUmNJC7K
+    dropdown :
+     internal_properties : BQAAAAUAAADy5jGH5FmbmJiBVFpNOHgMyw9C5elIUHdXz45ZbkbsvRHimWMMyueP3NXyyN52ZUTbLRbVDFV2Y8XwUlw1LL0tR9vqgKcZo4Yy85aAFivS/gxYCqvLuKnBLQCAwk6kRSeMtwyvxFHJVqiG5Dfn5OEKBWM9uW6SBATNsv5r6pkplifjOlG1DRYNODaeKV765Cy+6yW/5eU7U5fEXJmKLLMve3zqw+Uf6Vs+XnTLkLOFM7ow/pz9WSjuxkZX2D5P9CeCZ5y3peClwrCWiOgS+KrSC7L6EZEVotoE0tygDE67b9OhpnKcaOrms6ZzwhlssHnQtzF3vRO3lQuOhNP30AG6dlMLnCx1lfsThnaSRjzj/zXvgSI1m/6o+DyJIkyZxvQU1QPWQmuJOPy8oT/SWZ1e4wifoCncm1smTOD+nHbGz34b2N/uHYmh5oC6TUqSQ6LMtDz3F2SBgWzaSqFWlI2cR8+EVdlXd/4V0eH1Ujd45PZlOX7Z4mrwdXHybx7VWD6OM6dmC/Z+5Wpkfm2BXggzPTP5gSSVqhUhw1+okvp/ELBQriIhNoiFyanD9YxbeBI2F11eNv/MUPM0LgRXvXlW9ZF/t8L8Sc223wBmGXsSTRm6Eo7scl7yQbRxF+ML5IrIJpEKq1IFv36maizCbnFo+p/PVg6u1xTH40rljw8jVLMb+ereD6526BXhSiXvWwGXtNmjrjURwsgk7aZDrLwEnheWC/lF71IoTlnHMfmlHdoRl3aeRdWlMpm4eJ0XoDTeUY4jlmEmQpPojjRyCbZkHcxoCynVnVXYk3KTacRglTjfbw==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1+
+         
+         HLitRecherchePremier(ClassesSchool,IDClassesSchool,COMBO_ClassesSchool)
+         si HTrouve(ClassesSchool) ALORS
+         	//	SAI_Montant_Inscription = ClassesSchool.Inscription 
+         	HLitRecherchePremier(Eleve,IDEleve,COMBO_Eleve)
+         	si htrouve(Eleve) = Vrai alors
+         		HLitRecherchePremier(Statut_Eleve,IDStatut_Eleve,Eleve.IDStatut_Eleve)
+         		si HTrouve(Statut_Eleve) alors
+         			SI Statut_Eleve.Statut = "Formation Exonorée" ALORS
+         				SAI_Total_payé			=  0
+         				SAI_Reste_a_payer		=  0
+         				SAI_Montant_Inscription	= 0
+         				SAI_Autrefrais			= 0
+         				
+         			SINON
+         				SAI_Total_payé			=  ClassesSchool.total_a_payer 
+         				SAI_Reste_a_payer		=   ClassesSchool.total_a_payer
+         				SAI_Montant_Inscription	= ClassesSchool.Inscription
+         				SAI_Autrefrais			= ClassesSchool.Autres_Frais
+         			FIN 
+         		FIN	
+         	fin
+         	
+         FIN
+         
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : SAI_annee_scolaire
+    identifier : 0x22b053e803ada3db
+    internal_properties : BQAAAAUAAACyjG1e6/9/zrI1iBPT48I9xA61r7l2XUW7wGXXL1RQmgcigCNiWw9lcEc8ueBXQ0vwxpTx3kUs+G2CR4p7AlMOQjAlguj3RtsZnK5HWFdlgdDbtVR5aS3wlUZqG3CE7XUvEzenVr5lzCA5kNk0ICJTpK+DPflmbgEGZatVCODFOFwYYSjUtxN4xkKApNAw3CK8ZdNAIjA1HiBsf7c3LvvB2cMa88a9u0+gdftjlwEvhq2K6EYY4p3mJYeFehuS+uYkn+5OjmgfcDl4q8CdcxI88G0NTcIZIOiSzxm9I6osc67YuRRi5IqmVQXMC6ktcSge8uHeLI87X6GXysoINdBqSHPcbJbP9D6x5NtRO4skNSo1pIIAPjli+3K8dRfP01o4/iI273/5zlVPe5MfkyVsF/uGWPRLdQOoc/R2hrQJJTzJyD3onwhJyz0LDeX8uIb4QF6pu2qiwJm3regcsG+cDdzJNdamSM0uORyX4cp6VG5qqyKcGMguxAEDJvegVyJSrYTPLA/tD8vW96/NoFjESpZtaI47DK/QM37KkyC0kd/TaCBm8DT+l7JP8909SRiCsTZBMOtvcMwIZZ0ITLH5pJbq/B7F3Rfd1vVsiqCU0F3vM7Y07cjUCqTuZzcF8IDEfRVLdBgARSqFS1/CIhmUAuY7cXvY3/8vTCr5Zu4nXfhZi+Wf/0W8uNUiETzLOdqJCQAzcxU3nTrXMcroHttksonrzZHSI7P/LTsrVZuXG24den6uGEwXo3fj8TcbeNlo3zHwn46OEOT2cZxL4iCJpS++IoQyIluSA6wSCtmr3VlmYEdaYeBVL3Hw4x15smTI67QXjmSa7vDlVOMToFTGt5uu4e5mRlSoUI0LMJ2/pa2aAhWAYIaR9uAsw5TIW/XZgRXdmaPe723BWlSSKI5VFipr69zQWS3Dmm4XLBnYuEwqp6ybEJI848O5Zmtmzj0oZ2+U6WNSDumyGyy76eI94+pk3JGjYhSxrZQ3TJej9tqP5ZT1w8Lp6eX5Bz15ZWYY+8QDTQ5HB38E15Hdbgk+7iANtZi60HT0FJzJHuDIAe5pBf7vyqw40JiHQjFAASZBB48oC/DkWmYS3k0RIpl7SyQIkoGoD7x6o8PRgR1P8k3s1lByJ/NJtmrJRIMuOxsAmiUI4Zt93+MCwLQfpHA63vfS/ojLzCYP9uGI0Ejuy2/Nn++Dkn+ya04geRz6Xi+LFKgMm6p16t55hqgUASJVJ9ByYmp3iVf6ocWfWyWEJ1S6cc5xxDXgFsvyh0WtzwgIAg2YWyaoaDKI2jvy/wyNBv7C0ax8vKYw7izWvq8y34CZjHI1FJC7U3c2Y3FTfQd8hmqz+EbIAERusi5EcV/Exa0dQMJcSiI9BL+YyG9ijaKhHKb2jLgK8uBvfJaVTd6HPpx+aVnw2Bxux+nOx/Te2CMy2VmU3neBSYcq496/M6e1ZFdzJth3MD+rxRVDi8RR6nOPzvxQ7pg=
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : FRM_SansNom1
+    identifier : 0x22b0550b03be1510
+    internal_properties : BQAAAAUAAAAziTkFos0NUsHva9x/2G+bvomVCKAMYGtpMCIhg1gmNF45lp5SBteikMwCR2oczcRgu1qnTiuciDnhEsmekiSxvJ42WrmUyKCV+mWxysI+p1JOV1/NwupAW1uQ5SaNdsG13ey2KtERfhBrLe/Yolp9LTm6YzHVqE6tXU0UyHI/sNHwdZqC90KkTNDc6/ooa1n6HDeeaN5h4JPeGbREdhEdi+xZk58f0Tw563rmP29v2pARdkluwsS4B+8i29ZXrja2jp/Fq4stJaLTUk22mCnQKd8kSabPXURCXJb2m5i4IN3a3cujI39IaWtmLzVtr/Tx1KBKJofPvTR4ar6z0mzO8t0u8Ncff5k9nysZEq9HAlSu+MRcPj4I0soSaJw=
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAABd4biPtdLQOwfUFiqrit8H4xfGqKyz9t6VLxCUnNZRQiLPVs82PZNE+UVdKRzjizyeuKyRur85gNMUfqplpmtNDnQWQla9zo+GH9+1EfUJ6w17Dn/egD/gv+Hhywk8c9unIdzEp7EHgaAqD28w7Agveg4u19PBcKGZtQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre()
+   -
+     code : |1+
+      HLitRecherchePremier(parametre_logiciel,lib,"INSCRIPTION")
+      si HTrouve(parametre_logiciel) alors
+      	SAI_Référence_récu = "000" + parametre_logiciel.valeur
+      sinon
+      	SAI_Référence_récu = "0001"
+      FIN
+      SAI_annee_scolaire = gsExo
+      
+      
+     type : 34
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : BQAAAAUAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1297e13c0079b2d8
+  internal_properties : BQAAAAUAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

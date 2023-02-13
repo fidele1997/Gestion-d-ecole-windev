@@ -1,0 +1,2 @@
+//MO063-064.TXT ANA00063 TO ANA00064
+Contrainte_Eleve_Recouvrement		MCL	1,1->0,1	

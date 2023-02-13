@@ -1,0 +1,4 @@
+//MO058-059.TXT ANA00058 TO ANA00059
+Note		TAR	982	nouvelle taille enregistrement : 982
+Note	MI	CNW	Chaîne$Réel sur 4 octets	la rubrique MI a pour nouveau type Chaîne
+Note	MT	CNW	Chaîne$Réel sur 4 octets	la rubrique MT a pour nouveau type Chaîne

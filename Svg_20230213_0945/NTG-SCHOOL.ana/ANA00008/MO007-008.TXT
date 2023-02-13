@@ -1,0 +1,4 @@
+//MO007-008.TXT ANA00007 TO ANA00008
+Semestre		NNF*	Trimestre	nouveau nom Semestre
+Anne_Accademique		FRN		
+Semestre		FRN		

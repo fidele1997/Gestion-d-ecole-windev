@@ -1,0 +1,5 @@
+//MO021-022.TXT ANA00021 TO ANA00022
+AffectationMatiereCoef		FIC-	AffectationMatiereCoef	Fichier supprimé AffectationMatiereCoef
+Contrainte_Matiere_AffectationMatiereCoef		DEL	Matiere (IDMatiere) et AffectationMatiereCoef (IDMatiere)	Liaison supprimée entre les fichiers Matiere (IDMatiere) et AffectationMatiereCoef (IDMatiere)
+Contrainte_Coefficient_AffectationMatiereCoef		DEL	Coefficient (IDCoefficient) et AffectationMatiereCoef (IDCoefficient)	Liaison supprimée entre les fichiers Coefficient (IDCoefficient) et AffectationMatiereCoef (IDCoefficient)
+Contrainte_ClassesSchool_AffectationMatiereCoef		DEL	ClassesSchool (IDClassesSchool) et AffectationMatiereCoef (IDClassesSchool)	Liaison supprimée entre les fichiers ClassesSchool (IDClassesSchool) et AffectationMatiereCoef (IDClassesSchool)

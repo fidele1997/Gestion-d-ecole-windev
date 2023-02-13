@@ -1,0 +1,5 @@
+//MO057-058.TXT ANA00057 TO ANA00058
+Note		TAR	978	nouvelle taille enregistrement : 978
+Note	Interro1	CNW	Chaîne$Réel sur 4 octets	la rubrique Interro1 a pour nouveau type Chaîne
+Note	Interro2	CNW	Chaîne$Réel sur 4 octets	la rubrique Interro2 a pour nouveau type Chaîne
+Note	Dev1	CNW	Chaîne$Réel sur 4 octets	la rubrique Dev1 a pour nouveau type Chaîne

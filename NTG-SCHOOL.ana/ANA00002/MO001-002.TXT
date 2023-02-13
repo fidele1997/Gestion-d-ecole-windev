@@ -1,0 +1,13 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+Eleve		NFI		nouveau fichier
+Professeur		NFI		nouveau fichier
+ClassesSchool		NFI		nouveau fichier
+Matiere		NFI		nouveau fichier
+Note		NFI		nouveau fichier
+Anne_Accademique		NFI		nouveau fichier
+Trimestre		NFI		nouveau fichier
+Inscription		NFI		nouveau fichier
+Statut_Eleve		NFI		nouveau fichier
+Contrainte_Anne_Accademique_Inscription		NWL	Anne_Accademique (AnneAcademique) et Inscription (AnneAcademique1)	Nouvelle liaison entre les fichiers Anne_Accademique (AnneAcademique) et Inscription (AnneAcademique1)
+Contrainte_Inscription_ClassesSchool		NWL	ClassesSchool (IDClassesSchool) et Inscription (IDClassesSchool)	Nouvelle liaison entre les fichiers ClassesSchool (IDClassesSchool) et Inscription (IDClassesSchool)
+Eleve	Sexe	RRN		

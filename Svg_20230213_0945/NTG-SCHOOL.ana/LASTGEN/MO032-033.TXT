@@ -1,0 +1,5 @@
+//MO032-033.TXT ANA00032 TO ANA00033
+Eleve		TAR	2947	nouvelle taille enregistrement : 2947
+Eleve	Sexe	CNW	Chaîne$Entier non signé sur 1 octet	la rubrique Sexe a pour nouveau type Chaîne
+SEXE		TAR	11	nouvelle taille enregistrement : 11
+SEXE	SEXE	TAI-	49	la rubrique SEXE a comme nouvelle taille 2 au lieu de 51

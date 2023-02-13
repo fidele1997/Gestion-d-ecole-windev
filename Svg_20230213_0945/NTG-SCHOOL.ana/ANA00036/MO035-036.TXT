@@ -1,0 +1,2 @@
+//MO035-036.TXT ANA00035 TO ANA00036
+Inscription	total_Formation	NNR	total_inscription	ATTENTION : la rubrique total_inscription a pour nouveau nom total_Formation

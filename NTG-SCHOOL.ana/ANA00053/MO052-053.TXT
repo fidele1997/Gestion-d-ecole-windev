@@ -1,0 +1,6 @@
+//MO052-053.TXT ANA00052 TO ANA00053
+Note		TAR	767	nouvelle taille enregistrement : 767
+Note	nbre_HEURE_Matière	RUB+		nbre_HEURE_Matière est une nouvelle rubrique
+Note	Interro3	RUB-		la rubrique Interro3 est supprimée
+Note	Interro4	RUB-		la rubrique Interro4 est supprimée
+Note	Dev2	RUB-		la rubrique Dev2 est supprimée

@@ -1,0 +1,7 @@
+//MO055-056.TXT ANA00055 TO ANA00056
+ClassesSchool		TAR	510	nouvelle taille enregistrement : 510
+ClassesSchool	Classee	TAI-	50	la rubrique Classee a comme nouvelle taille 251 au lieu de 301
+Recouvrement		TAR	718	nouvelle taille enregistrement : 718
+Recouvrement	Classee	TAI+	200	la rubrique Classee a comme nouvelle taille 251 au lieu de 51
+EMPLOI_DU_TEMPS		TAR	505	nouvelle taille enregistrement : 505
+EMPLOI_DU_TEMPS	Classee	TAI+	200	la rubrique Classee a comme nouvelle taille 251 au lieu de 51

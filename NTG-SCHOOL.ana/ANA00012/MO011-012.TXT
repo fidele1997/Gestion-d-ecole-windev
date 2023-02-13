@@ -1,0 +1,3 @@
+//MO011-012.TXT ANA00011 TO ANA00012
+Eleve		TAR	2692	nouvelle taille enregistrement : 2692
+Eleve	DateEntre	RUB+		DateEntre est une nouvelle rubrique

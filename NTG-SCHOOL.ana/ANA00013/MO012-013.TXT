@@ -1,0 +1,3 @@
+//MO012-013.TXT ANA00012 TO ANA00013
+Eleve		TAR	2893	nouvelle taille enregistrement : 2893
+Eleve	Chemin_image	RUB+		Chemin_image est une nouvelle rubrique

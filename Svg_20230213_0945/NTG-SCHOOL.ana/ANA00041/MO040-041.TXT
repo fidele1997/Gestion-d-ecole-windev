@@ -1,0 +1,9 @@
+//MO040-041.TXT ANA00040 TO ANA00041
+Note		TAR	772	nouvelle taille enregistrement : 772
+Note	AnneAcademique	CNW	Chaîne$Entier non signé sur 2 octets	la rubrique AnneAcademique a pour nouveau type Chaîne
+Anne_Accademique		TAR	60	nouvelle taille enregistrement : 60
+Anne_Accademique	AnneAcademique	CNW	Chaîne$Entier non signé sur 2 octets	la rubrique AnneAcademique a pour nouveau type Chaîne
+Inscription		TAR	559	nouvelle taille enregistrement : 559
+Inscription	AnneAcademique	CNW	Chaîne$Entier non signé sur 2 octets	la rubrique AnneAcademique a pour nouveau type Chaîne
+Recouvrement		TAR	514	nouvelle taille enregistrement : 514
+Recouvrement	AnneAcademique	CNW	Chaîne$Entier non signé sur 2 octets	la rubrique AnneAcademique a pour nouveau type Chaîne

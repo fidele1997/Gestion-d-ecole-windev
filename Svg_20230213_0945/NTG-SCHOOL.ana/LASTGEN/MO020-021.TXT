@@ -1,0 +1,5 @@
+//MO020-021.TXT ANA00020 TO ANA00021
+AffectationMatiereCoef		NFI		nouveau fichier
+Contrainte_Matiere_AffectationMatiereCoef		NWL	Matiere (IDMatiere) et AffectationMatiereCoef (IDMatiere)	Nouvelle liaison entre les fichiers Matiere (IDMatiere) et AffectationMatiereCoef (IDMatiere)
+Contrainte_Coefficient_AffectationMatiereCoef		NWL	Coefficient (IDCoefficient) et AffectationMatiereCoef (IDCoefficient)	Nouvelle liaison entre les fichiers Coefficient (IDCoefficient) et AffectationMatiereCoef (IDCoefficient)
+Contrainte_ClassesSchool_AffectationMatiereCoef		NWL	ClassesSchool (IDClassesSchool) et AffectationMatiereCoef (IDClassesSchool)	Nouvelle liaison entre les fichiers ClassesSchool (IDClassesSchool) et AffectationMatiereCoef (IDClassesSchool)

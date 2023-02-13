@@ -1,0 +1,8 @@
+//MO028-029.TXT ANA00028 TO ANA00029
+Eleve	Numero_Matricul	CLEN*		la rubrique Numero_Matricul est maintenant une clé
+Eleve	Nom	CLEN*		la rubrique Nom est maintenant une clé
+Eleve	Prenom	CLEN*		la rubrique Prenom est maintenant une clé
+Eleve	Eleve	CLEN*		la rubrique Eleve est maintenant une clé
+Eleve	Pere	CLEN*		la rubrique Pere est maintenant une clé
+Eleve	Mere	CLEN*		la rubrique Mere est maintenant une clé
+Eleve	Tuteur	CLEN*		la rubrique Tuteur est maintenant une clé

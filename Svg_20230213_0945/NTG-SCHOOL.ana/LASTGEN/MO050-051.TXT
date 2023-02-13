@@ -1,0 +1,3 @@
+//MO050-051.TXT ANA00050 TO ANA00051
+Matiere		TAR	172	nouvelle taille enregistrement : 172
+Matiere	Nbre_HEURE	RUB+		Nbre_HEURE est une nouvelle rubrique

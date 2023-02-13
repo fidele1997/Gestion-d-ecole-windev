@@ -1,0 +1,2 @@
+//MO039-040.TXT ANA00039 TO ANA00040
+Contrainte_Eleve_Inscription		MCL	1,1->0,1	

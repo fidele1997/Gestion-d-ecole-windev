@@ -1,0 +1,7 @@
+//MO053-054.TXT ANA00053 TO ANA00054
+Note		TAR	967	nouvelle taille enregistrement : 967
+Note	Classes	TAI+	200	la rubrique Classes a comme nouvelle taille 251 au lieu de 51
+Inscription		TAR	712	nouvelle taille enregistrement : 712
+Inscription	Classes	TAI+	200	la rubrique Classes a comme nouvelle taille 251 au lieu de 51
+Etat_Recu		TAR	759	nouvelle taille enregistrement : 759
+Etat_Recu	Classes	TAI+	200	la rubrique Classes a comme nouvelle taille 251 au lieu de 51

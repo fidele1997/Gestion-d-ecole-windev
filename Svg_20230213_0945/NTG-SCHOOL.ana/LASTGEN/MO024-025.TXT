@@ -1,0 +1,4 @@
+//MO024-025.TXT ANA00024 TO ANA00025
+ClassesSchool		TAR	556	nouvelle taille enregistrement : 556
+ClassesSchool	Classee	TAI+	250	la rubrique Classee a comme nouvelle taille 301 au lieu de 51
+ClassesSchool	Scolarite	CNW	Entier sur 4 octets$Chaîne	la rubrique Scolarite a pour nouveau type Entier sur 4 octets

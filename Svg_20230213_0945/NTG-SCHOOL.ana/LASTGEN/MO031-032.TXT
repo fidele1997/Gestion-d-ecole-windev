@@ -1,0 +1,4 @@
+//MO031-032.TXT ANA00031 TO ANA00032
+SEXE		BASE		La base du fichier est passée de HFSQL Classic à HFSQL Client/Serveur
+SEXE		FCNX+	MaConnexion1	
+SEXE		FRN		

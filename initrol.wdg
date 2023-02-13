@@ -1,0 +1,134 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : initrol
+ major_version : 25
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x19f98a6600eb6226
+ internal_properties : BQAAAAUAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : initrol1
+     procedure_id : 1871679398230147374
+     type_code : 15
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // initrol1 ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      //// Indiquez ici un exemple d'utilisation.
+      ////
+      
+      PROCEDURE initrol1()
+      mdp_fichier est une chaîne="ORACNHU"
+      HCréationSiInexistant("*",mdp_fichier)
+      HLitPremier(user)
+      si  HEnDehors(user) ALORS
+      	user.UserNom = "DOKPO"
+      	USER.UserPrenom = "Rolland"
+      	user.login = "admin"
+      	user.password_user = "ro2021"
+      	user.groupe = "ADMINISTRATEUR"
+      	HAjoute(user)
+      FIN
+      
+      
+      //HCréationSiInexistant("parametres",mdp_fichier)
+      //HCréationSiInexistant("MINISTERE",mdp_fichier)
+      //HCréationSiInexistant("OBJECTIF_PROGRAMME",mdp_fichier)
+      //HCréationSiInexistant("PERIODE_PTA",mdp_fichier)
+      //HCréationSiInexistant("RESULTATS",mdp_fichier)
+      //HCréationSiInexistant("ACTIONS",mdp_fichier)
+      //HCréationSiInexistant("ACTIVITES",mdp_fichier)
+      ////HCréationSiInexistant("ACTIVITES_SUPRA",mdp_fichier)
+      ////HCréationSiInexistant("PROJETS",mdp_fichier)
+      //HCréationSiInexistant("TYPE_PROJET",mdp_fichier)
+      //HCréationSiInexistant("SOUS_SECTEUR",mdp_fichier)
+      //HCréationSiInexistant("STATU_PROJET",mdp_fichier)
+      //HCréationSiInexistant("SECTEUR",mdp_fichier)
+      //HCréationSiInexistant("GROUPE",mdp_fichier)
+      ////HCréationSiInexistant("UILISATEURS",mdp_fichier)
+      //HCréationSiInexistant("AXES",mdp_fichier)
+      //HCréationSiInexistant("PILIER",mdp_fichier)
+      //HCréationSiInexistant("SOURCE_FINANCEMENT",mdp_fichier)
+      //HCréationSiInexistant("schema_financement",mdp_fichier)
+      //HCréationSiInexistant("ODD",mdp_fichier)
+      ////HCréationSiInexistant("UTILISATEURS",mdp_fichier)
+      //HCréationSiInexistant("INDICATEURS",mdp_fichier)
+      //HCréationSiInexistant("ANNEE_INDICATEUR",mdp_fichier)
+      //HCréationSiInexistant("TYPE_INDICATEUR",mdp_fichier)
+      //HLitDernier(EXERCICE)
+      //SI PAS HEnDehors(EXERCICE) ALORS
+      //	sCheminan est une chaîne = SansEspace(EXERCICE.aNNEE_exercice) 
+      //	HChangeRep("PROJETS",sCheminan)
+      //	HCréationSiInexistant("PROJETS","ORACNHU")
+      //	HChangeRep("UILISATEURS",sCheminan)
+      //	HCréationSiInexistant("UILISATEURS","ORACNHU")
+      //	HChangeRep("UTILISATEURS",sCheminan)
+      //	HCréationSiInexistant("UTILISATEURS","ORACNHU")
+      //	HLitPremier(PROJETS)
+      //	si HEnDehors(PROJETS) alors
+      //		PROJETS.CODEPJ = "1DPP"
+      //		PROJETS.LIBPJ = "DPP - DIRECTION DE LA PROGRAMMATION ET DE LA PROSPECTIVE"
+      //		PROJETS.SIGLEPJ = "DPP"
+      //		PROJETS.IDPROGRAMMES = 1
+      //		PROJETS.IDSOUS_SECTEUR = 12
+      //		PROJETS.IDAXES = 9
+      //		PROJETS.IDSTATU_PROJET = 3
+      //		PROJETS.IDTYPE_PROJET = "Directions"
+      //		projets.IDMINISTERE = 1
+      //		PROJETS.IDODD = 7
+      //		PROJETS.IDMINISTERE = 1
+      //		PROJETS.ORDREP = 1
+      //		HAjoute(PROJETS)
+      //		HExécuteRequête(REQ_liste_utilisation1,hRequêteDéfaut,"DOKPO Rolland",PROJETS.IDPROJETS)
+      //		HLitPremier(REQ_liste_utilisation1)
+      //		si HEnDehors(REQ_liste_utilisation1) alors
+      //		UILISATEURS.IDPROJETS = PROJETS.IDPROJETS
+      //		UILISATEURS.LOGIN = "DOKPO Rolland"
+      //		UILISATEURS.MOT_PASSE_utilisateur = "abcd2020"
+      //		UILISATEURS.PROJET = "DPP"
+      //		UILISATEURS.PROGRAMME = 1
+      //		UILISATEURS.Groupe = "Administrateur"
+      //		UILISATEURS.REALISER = 1
+      //		UILISATEURS.cOnsulter = 1
+      //		HAjoute(UILISATEURS)
+      //		HExécuteRequête(REQ_liste_utilisateur2,hRequêteDéfaut,"DOKPO Rolland",UILISATEURS.IDUILISATEURS)
+      //		HLitPremier(REQ_liste_utilisateur2)
+      //		si HEnDehors(REQ_liste_utilisateur2) alors
+      //			UTILISATEURS.date_validité  = DernierJourDuMois(AnnéeEnCours(),12)
+      //		UTILISATEURS.IDUILISATEURS = UILISATEURS.IDUILISATEURS
+      //		UTILISATEURS.Itc = "mirabelle"
+      //		UTILISATEURS.LOGIN = "DOKPO Rolland"
+      //		UTILISATEURS.MAIL = "rollerdok@gmail.com"
+      //		UTILISATEURS.tel = "22997597444"
+      //		HAjoute(UTILISATEURS)
+      //		fin
+      //		
+      //	FIN
+      //	fin
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BQAAAAUAAAA6ih3UbgNXHwTtiPSFUEj+2fi/m7v4QV2rqidAupM=
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x19f98a1000e9117b
+  internal_properties : BQAAAAUAAAAnMYFQ1bL/vz9ehh7L22SNNSlIzGTOI8h5F/WtgDNP
+custom_note :
+ internal_properties : BQAAAAUAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

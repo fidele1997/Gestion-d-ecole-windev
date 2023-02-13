@@ -1,0 +1,3 @@
+//MO017-018.TXT ANA00017 TO ANA00018
+Coefficient		NFI		nouveau fichier
+MaConnexion1		CNX		

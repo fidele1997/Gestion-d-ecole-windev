@@ -1,0 +1,3 @@
+//MO060-061.TXT ANA00060 TO ANA00061
+MOYENNE_GENERALE		TAR	643	nouvelle taille enregistrement : 643
+MOYENNE_GENERALE	appreciation_General	RUB+		appreciation_General est une nouvelle rubrique

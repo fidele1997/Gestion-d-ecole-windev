@@ -1,0 +1,459 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Modification_Inscription_vrai
+ major_version : 25
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Modification_Inscription_vrai
+ identifier : 0x22b0b39f0a008721
+ internal_properties : BQAAAAUAAAAYQcSeF8xxfFHmYVslx9+4rKl94adDw1afMGg0IvIpU3FwkZ+DJzS67FtylamR9fFd7/LIDf1AWyw1/LVrGDJI0psqXS5LPX6rAPXb/ms6bdABfh+tgBxsGQCOW4QhjGrywHD9ompaK+BdMJm2E2QtdKQc9EtG/gxwi7/qYJKNLZIj55oaol6+S/0xzBJAIxGcei999IlbIwdbvYCYnW5WerRnzwEA6gTBYMd3+F1GrgTzKPfPDF6ICKR0tn86SiGxgULHRm79gfXFXgjlBmJPhYu9ItOxbeuZ+QthBezk8prGsTO5X6GHI0KYGT4bx/J0QyNcM3W/5wR+GeQ/gTGzWDEL2yf5qZHG2r2u0KV9GlprB0eXGVPNKNgsUyx6H0Tm2EUQex37vuUMGyiwbLh9+7Hl+p+Sx2HelwGTfbqFbmBWBSzqaODiGHIoHUKNbgKc95bAUmjcgzpJWqEGrxLoztEgmSYOqVv+D4CqLl8IPXQ5jgn5JqYdgofgR/zn06vZJJpkt5K2qJxbuCc0cyOoRiP20Q8a2YKOOQ6M8KiAsZ3zf7BaFxupYHsgi15PhT7YnWj2zw6bAmaKXfhbA+e86NQIJOL2mE/tg7MxDW69f5f1GgZalCDRis4xiJdxDyakn59q6TRaAZUsSXqzconSbmBmWBAOHIcwzEmKDwqxFTgjeXO3
+ controls :
+  -
+    name : SAI_Date_d_inscription
+    identifier : 0x22b0b39f0a048721
+    internal_properties : BQAAAAUAAAAzLAGOXQaENxUMna6YE93/DUuatq/rUYY3sbKkieObV1UTqb9xVZ4T4P7VeLqio8A6Ob6DJEKQMgfQB/4tort0kRX2hDsYqlce6VrWnxPnd+Kixa0UOj6LofGyK0xMQ5t0mralMu+sywTf8b4zqLxqRf9sKv26FywGcMWKdLkfSucEki20zvtKWybJlnIEIv3wLKHAY3q5yfsFsXHvVBcDYumX7FGJNquIbhOs5RWN99HVqQObbkv/PuXFp85d6LxVt+nYT8wcNb3GBKkDcwaliihZC4+hYflfJ4AWrGH+3SzdG8JcQfquNqiGOVAIgdcW1zSLbDyIpPVjFK7hf5uJFRjGkMQpY2CzNnYuaxHzoZf6ZuIIzAABHzkeSHSZw3CDmN4e6GllXhhqKB13y4y12uIrtdT20/bidMoa3Eu9GPCrHNSh7qoGeUJuxnvk2roKJfr/r89Z7jJuDBZCB+3r0d0ndFd3F4a2dD2CJPL4ZPijA9XmUDsMsqjAWJaQzu4B/Eaf8SDSo+UG4WUwOEpI7y4zxXUHMeCBy3t9b7lrdPBhShvmGwmrknw3mG92cMB9FSfSsrlwYtzk6e6j25d5Sg/RK1YYitSwS0SgMs9nHzUFUgk3bO9KkO8xfNAJC9v8gOgOpJit8v4X9YRzks44K+JAnVU+Y/B9ebCfnkA1dKadoEBmkqcl0jMOqUjAAvk3mQZOEq8ZAcophtE5ut+Fc99hxyWUe9rb9X36xbOdcFdhAgqCOOZ52K2Ds8YkRLe8Anxb50/8qw1Ld6wKCl4F5PI2L+7TEJw8EqjGFQPRzwN4dMspc1UZA+ZeVsRSTp0FAVNdz89hoy9ICljMz+gWwQmRGfY0U8CKVK+OzrxtACgVKcLmp9d78511vPvOREmLPYxLnFF88IyDduUBlWnArGMjmn74Ibr2RMGfR9xPsbVdW8uReXEPidcVvBHFgPfoCzGwx4cQPN7FfQOgwOT3hrMZrSJRrKC/3BD2XuW/UX8eyIXdTiU9Gz6wwDoq04viLmiCNnNbZftyXuKAaTnegxRhAuK5h9UKN9VybKNSKVXP4RpVyVKdBLQb4kekZ9cj4gs1i3HNqq8wovs+lolXj2Ik6yHhhKbiY8jIhkLuCWNEpCcYbKgLU9V+dgUfeRNkaKz0SH4uQJruhvYw8yV4/ro02DioRI4PNBk1Mj5TGmuH26WSFlzNhDBoI/61dtdG3kHNb4nul36LOKbgxzYammaXfrp3Ewokvn4e+7ZaaXxANERyvatFiQnc6q3X0z0Dw5xtV8S/SqjSIpWA2yzTSYWoUUlw0QIQDbXUGOqyy1OEFE2pNqjW10qRpCeaNlOJFszRE0xNQ9QX09/5hj7UmkWO7YxCtQgjAvV2+p6Ubttuu4/Z8z90nqlF+kC0JrQdxjrJF/ApvkzVkotBI5uvovR+kIgRcLTI1BxLSOw9dgqtBT8hV7sZ7MxZcP5mn3fjP69hvuF88ggUN/Kbr4P9YAI+o4W1ztUpVwAQSARlf76TEiYFw6NjicyzKTHzHMAyoIaQZltudilO5vM=
+    calendar :
+     identifier : 0x2297e4dc13f3daaf
+     internal_properties : BQAAAAUAAAB3lYmuFInFfTWhgXRrbUeuS4X9ITuKjCXsTvPv+pweAbbbKGxkgjtPjYx5c2OaKKmnv67duF1uWpaIg51VVeY4uVD0dpK0le7T+zP+AW1+Kfc7o4tyIGnSLGAkGTjzb0k95UGyh+CloxWenQzuMgNTESh5uaX4//gCVOV3BohNlSXO+6/J+l7lNgoTF50V7w9VtfcEQlhqMI9ynXCdItUTnw8nzLBlAR0bL0CVrZX5djwi528ADuxsKkpO6IVyOBvLGAdGVPxoWu+BIlBr24bqXzIALN58BcX187/6OCMSUfMA4JOb2Mcx67gCHiMY4AJgkv5D92jp9liiKN/fBL3QFn5Ns/RNiMxqMzaO/NhryWBRDnHaruZ7tkYThOJOlQe0w7JufEo8H4H9IMTbRK8jprs2b96VZV2e2KPYTcqvGeAT0iMg2V48WbQazGWYYgsFGNxiwd7eouviUM/sFhl8NyKyN/kkQU/3voVMvkar5o3RS5cxHFMKsNEr3k6d6XrzL/nt2Wy7LxqVks4ivtSKZKuvB7/vc9vB1j+9wJn71mbwYGhjoEU6cyL3CpF8aRDrUzV5H64TtQQmG0bF+5viwPZZ3a8cHz0BZ82Voq9Epjwqpef4P2Ft4SVMyQYnsrDknjFgKzjqbO0xLD4wTFWZAFW0SsFF4jp77Ux3MrX42E76ItWpnrZJSWSqyY1WVCsz0KVf8iyHnrmDTqKEdJNrXUv4VWwmgmbc5ll7Sd3jD64WodFQZZPeXxqUYIJocCkyPbUpkAVIleLfiHFGWJr+G5X4d245NQnAFG7VWlhgtYpGWPvPhgoxaAmaTioP4oSO9UglgLZTSqK8qJlb3/XNacjlMVVmD/SWCKNOQRRhjhGYfd+9Gek+y9aBdssGTKUWEIA/rN+fgEGSQYOrCh01CPGKJjlJMVCrqV4GcpCjDChymS3Igj1QPuT0eS+pRBrpzOEm6fbMk/w1ztAFv+f2vTwsqa/txJapbPIQt2U73VlNlwE74yT9LG2JiYG92N3pcStGhuzFQDg2yjxlBrJ5FyVI6Y9V+qg0OFqyUswGNTUQAZ5HE2AfsAHriXdDOazue41R/xNVY9AUn+VzB3AfcLSBIQ4+XkOW2OkcPNJFEXo3yfKe54bYVgvph1+7rg7wTz17NsNbj2f9Th3wLD6zVpDxXrGUIRTDyrotKTcSzOccXZNyk5c6giRLm7y5d0LAcf6SLIUvSqIbz7hD5QCXseMaxyFtzS3X
+     type : 47
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : LIB_Type1
+    identifier : 0x22b0b39f0a0b8721
+    internal_properties : BQAAAAUAAADMV9fPHN8t6PQmHqoH+rWCNKK7hwcIK7V3IiWYtzNleSMlK5TQ+DHPmHvdFoIWzG6mUnBib3zF0ell3CAvsGVcbHtAEfw0UD0InxAXRZsrgMDMav6PFBs1NZbhwAwdtDmdkWdMFUsQbiWFPTeET77su7qbnooCU1cFG/+un8jBs+m9Oie/afylXw2+dFCQq9bvdQ2PeefsZwCSDDy/RdIEts6DDg6fGSgN1szWaw+FnxtXAqP260hYUDihyypMp8qH88ZBts/Q6w+NvumlyWKNQ0i0yEJZkaQaLNV7Mc4wMKHcbZfCH8mih7PXIj8kicGUxoGOkC/JhjEj1jKf1Qa4GDcoDvsQOqa60qOxxcQlGKuBVlAlXdOEjkrJCiRjkVmwupmlyTpu1nJdTpkceeFZ3ssT/94vTDMaoai7B+jrGKbjFTyoKajWaE+Iqg6m3R6jnk2nh4kz1mf2rjWv/LXM90RdvYZlXDEICC1toUvciFossJ6fdLTJkcWHYP/Dwh13lWUptAIoYD+emfmSENLKlgL7X+s=
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        type : 18
+        enabled : false
+  -
+    name : BTN_Fermer
+    identifier : 0x22b0b39f0a0a8721
+    internal_properties : BQAAAAUAAAA5pF+a8XV07R9e1gn7pv+7S0TkIpVE6E3LVstf3pOcwi5SYrommapZM9L6s7bsouTs6NUV3+NBI+lmlkjiFVunsLj8EB2wKHYawmXRAA+v2qgl607JXsZwxJ2y9qSt5HDipjlntWf2be/kym+QbKd78mol6Czkn01q6lY1zjHuNtHfu4tEaqhLwSZ1GovNAZ1hkK1oPxZlf46Bwm/J0NFnc3xzMZW5+6XPGGBlgQ2alYRaXPdBim1UoErlk5suZEiF+3YOc9uqiaJfYmooM0Md5sV9nhkomXF5x+oDqxjpUcgga+BkoXcy7sAlNNc0t0Dn+ZvDkfq81ACKuUKqzJioXBUWiTY4NS2AOSU7dDBFIZYG0nA7LKDbwa+gEZMmjyTfBcdHKZ+YtaCJnpvuvQcbZpuhSUn0z0xB607IOyPZUd6Giu1HDVAnpvOK1qaMQitejQ9jB44xFiTWxZ+sq5KRo/n/GXRWxZkBodFlYkrCGdYLsF1U1xlTd4oBWYZqqy/fMfDG2QJOD88huyb8dPeDCygIJFzVkMLm/uKVSRXWD/vQpEAZV0WcrYtax4V2XTq6HYlWWYzVYgzlmyLguuyvbx2Y0WZNW/nfOIheSYryyP7YHzx6fGSDVMEn6l/9EO+N4ruPEfKuRj8UnvzhATWuwla5sIP/212rp5MiLmBXw80IKQBxeev79Wjp47zZGGsCCH1HcuWRD26NxZG8hOz0hARgNToBXglfHklL2vjrxmkoZB0YRM7rbEh7bd6/63FDZIduHOSA5ex4cP6UZSY1HaQveEZsEqeIrXxcA7/jnaiZDngvPDaujn+8bkWOpF9CALYxehflcPBhCvZbYfLbYbKJ/v/6xJReNJNyoTAVtPOfF7CDfk7EoqVfWg3YvqxkXKCw9nXHFTGI+YrhDwdgC3Bnu+AxFzWwFA68PXjbYAs0e3oESXDb8Q==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : BQAAAAUAAADlg+MZNL4UeN0CScoq3Rxf5gUg+iFD8TrM0IfnmXTmBKnXFNpcar1erZwYI1JZ4ul1VlNr8SlCSqUmSE/t8z2z4c2+cp3Psfdy+iN4xUHIwl5xUoKjn7dnHGqeRB4bYV3hoAh6uZDhZG7DA8DKlJ0/EDI8mUO8cvaPRnoI7rwYYjpPF/Vtuayt
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_SansNom11
+    identifier : 0x22b0b39f0a098721
+    internal_properties : BQAAAAUAAAB/SZgczU5viZnH9mpHj8/uy1C6LqBf1mf5RZjcGY2lktR6Xo/GaTx4n15qB3KkATTZCqy5mMMSWlhnNUR5ypk0jCBWQz9O/lB+vcaFpN0Zbu0QxJ7rl2r/QMjpX/85g9TgLZcFjqEWjQ5/Fi9ZlYz830+Aw3xObDTVdYpB+2ngAwrNa5uvjOw+fSC5smPsi6gWgCnNlv8MIEo0dSzR81G8/k7HgFHfdCkB13JEwh5QQKSbs06GhyEhfiBHbIdSvQoDZz9Bn7nmMe0NqZIVSovn2YOvraczv1xd6yrkmZfUibDPC+2RqhpOVMOaw0Wc0kauqZ85L/E3isViZLFO8L/R9tQe+kfSTxMBAwKuaZoyb8isXxpBTR/1jIZmUvPoQIQbuDaDGoN3YaRvh/BJyIrVmMfeFvXz5y7kIjrDpXvALkKn/bSe6mUJdqfUOMxny1hhA2Nu2xWesJiYWVjQvCnHJ+09aDx/CU+ggfhMkfop/I05B1UogHNhx68R8gg5X9RShYXF2v4JWf75fINF0CckxuaKS8RgrSL+q0ZT9ObHPY2+opkuBHarhQXhPduzIpT2ZsCki3XDHZS36ejKrlupO/JQiAB++VUG0bK/3uMOuXn2YnyeqC3b4DpW1B2j3MsuPPSpBi2OpbWSdPthCmBSFtQURavqU2XUe8dq1hM7JFjnfqE70DpYqyTyHAgdk6PIgqWU52w2AWLob7fSTEUjaX2ZsrpPwMOEq0F9H+o73klhv4tBMC8yywnITVs/4QFMGusOmGsSrI0I4/F5XPYpQxe6jO41tZvnszjrgOC3gFJnDOZ6Hglx9NKjOA==
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : SAI_Scolarite
+    identifier : 0x22b0b39f0a088721
+    internal_properties : BQAAAAUAAADDXYVmJjvMYffXF/7aqAJBKYF2QJXrzPs6/IVPy89o985jnuZEwQ6K5K64JHmtx4qKZUGVjDVLT7riPdsSLEx7uEZOGWADqmCMV1mjEzFcvLUZloqDK9joP3WgGYSlaBCxXQAVrVzCt0OJ5dA665uqm+sagVhJnyl8oeSMPDM+IrnhcqtrtZlQhGnWGIaVaZyTsmUiPm+JZBxWXRi+utProBPDcJzuOhSJ+4lt87qARv7d6NF6rhWa9BpNrDSsj+L7Fg2t1v3CpOhp0gYnBV1OEQVHLtIBPqe206Dr/OAkVhiX/q7oTT7BSi1IFlzOPp5gICdJKrDsybshkiNXQRh8TcA2Sono3pFccMB5KTKXeHJLEj3oCaY8GGgvS6fF9xPKhdu3ogfESUPpdj08oa7tHwxPkgJQkOIvNOuN8MurNq4oVRcmDAt3r6SqkjYuaRdehOJBJq7Cdi0EvmQqckB4BszwVj4Gev2H8DbnHBOeEDoJPKgt9T2XLJCKjIJ6Saf5hTN3VZxEliPEyNRNZlZnV0UlYvoRizw05iKxvImqE68MUK+SLcH6YXLEC78RtRN7+Ah9B6WXn4e3VbUekBPdcDfSiw0ijVTKr14ozuCOe4zG+C3goWUFsZy2u2LMExmAwagXbLT2gLQ3CQ1HHSiC0khnc1NtrlJ7nQCmzsUv3+8xKLgQX6ZStrfoYniqc9DbVnSmNalZF2n981fTjnuqhj9fI+hqoVxp1X3aRHwn2ZPxCWaFoEi7DlESlx/Cm2aSSJofSbXvn10FpBquNkb7wythVx/JmJl25/sdkBT9x4kEDvkobkMsWiUHJ/3GNUyZ1aPQ6/mtEtXS4H4VK1+PsliNpAl2TPGsCQnIJntD1lX2BiFTr3QNK/pVAoy2Pygzv/DblBCpJtHKvH9u3qrk8RUnLVorppydI6NP1umk4GuTOHY+WM4u+65p/G53TddreLMetL3N6QqN91df2ZXFa/qEftctFGYOHEeQBwfuqCdhiOsAxBqYyV2uStPSP442qUk/RJLR5kxce0to02rVS/+YeqcKfjn+E3F2fxbquFSY2vAl5F5Z3MNT1+bBPynW+QF12OYo5yWKwCSBJwbDg94zPkLyoLcI4ktS/+bSqF+dpXADP4A/JNXwnHg15OEQz3Pdh18llUmzbr3VD2K/jSB9l1EjmyBmCm+/NG/mrSxdvKhVDDu6SOsxxOY+GXnTc1IQ1VuB0uROi0YHT+/sdv8jt4YGH8IJ7DoA4aMAhppy1hWfANRXLK1qk73kvzX6cmMck+HoQMPAbHiLOcWTb77uyYBp7GjBt1f9xK6fNj0rPbm7IHhcT2KCELaNtQxrucDRRBOD0CQWCv4OgAeJKRBq/wNsFWxN9V7v3iMEmjaxqGeuEbSca6PC1nOM/TMiOuJHTjlLkuf2Ys4ZqWU5tDkoDzypJDoMFQrQTXQkuhXfsyZjhJ0L5iI6
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         //SAI_Reste_a_payer = Val(SAI_Total_payé) - (Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais))
+         SI Val(SAI_Scolarite) > Val(SAI_Total_payé) ALORS
+         	Info("Montant première tranche incorrect...", "Ce montant doit être inférieur au montant total de la Formation...")
+         	SAI_Montant_Inscription	= 0
+         	SAI_Scolarite			= 0
+         	RETOUR
+         SINON
+         	SAI_Reste_a_payer = Val(SAI_Total_payé) - (Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais))
+         FIN
+        type : 17
+  -
+    name : SAI_Référence_récu
+    identifier : 0x22b0b39f0a078721
+    internal_properties : BQAAAAUAAABqfBBlDXtBF++ZwzhpYcFWzTMAN4yF4O5wOdrd768zqeRfM/hqjTinmb1Cxs5n/sEjMehXn2+MxH9Cy3kKZlhk4HJOu7G6wAlH2e8XUtKdydO0XKhZfAZtsvR0Mo8kx5RlR5KeqobGe7ptbFjLYTwd6L/36VlN77yOSEf/gQo4ftwHPYqPNEiai0eUFN8YJ3uXKgZt+gsat9yR1s8+2HpjbK7+cqR8LbhQlnVH/aL6txBjJtdxN00i5WAuxsR1l7/UaPoKbbpzriFyfWbS8ENEH8xL8g8t/x8mrPNtIAgOYOOnAjxQhmrN7VrQeU0pbMrNpnljLvqRt8RsIR8/PCDSnRXPNwdHf+DZNZ756stmrPflfe8B9Q1pZlZlX4QJpDeS0CGtwOyVOuS17lBGPtlByCM02p0p5ibQfs1a6cMuekQ47hjGcNT320zdwHzScQTibOBXlU2tv3hUN1N9Prfp1o5lL+sSEkAUXP7+qw1FjXKS3wBe9I10Qwg0T3QA4WTstfyGE6/V3zk69bG8Xg0657Vf4EorfpFTV72IDhUxdY6J6AKVCJoK8n5QN6NkFkGawpRr9HKumoZ+/m4DKRKyx3yFfXE2KfjM8TpiMIMyMFqCw9jzPQ0orUg1gz7kJQO2gLqkYN3RPYsnhX5wWKp5dFFljk+W68g5ASicCGsS0Fl4gb+wAaG48W2EAP1Aa1yRQMszK4DLyAWv7VOzVkNoSKsrEG6dd3Py7QSevk/KfpgoVLELQ1FXQDBCtI5fZY74uI6HhAnfgoRpz/y56BA2qgxULnarUlvven1+Vy/SttmduaqncGagAOGggo8gQkJmv1jrWzEJaoErqmEXMa0mVfAo/V+opsfS2mmrtvXxF9LmGxYDzdIxJisFSMQ3iv+9YV07h+eF5Tzej7GvYcUs58gfR8Nsq9ktOEQHNXBy2wp/iLf5h99iKaOXxXsjisSIwbILmvVwo0O+v6EGKRtNxjkQnADUSgY3M7ywT8/SMY9o4IWJgR38NxGCvAncYj3qMNMVy7Hw1y7t11U0GAZuIQDVzWC9X0T4cxBCst87SGLMMmU/FsiR3KGgZSa5q+YfrI/7tVUq0FhYwPW4mqdbvkbZyI/w3EWMhS5b68TSMFkPcwdGyK/iN2K3KC2GYUwTB5ivk0No0SDJvyKNNiFVwK8P5GV1dPiNjMgUQPbk3OvUp2APcC6LLbEk7QUpQaL4tOxp5SxnP7N5/uE4eGGCTyGEsi9CiAsal+CaNJhB1L4JuJdUwZupCuGsih3cNOtblvsR68MPxKkcPcBGtcg/g7G5gljl1s2JqaOHCpauh4q13nQPElS8zTcKKF3ciNrCNR9hY2r5OzyQrjOjvVGxNJnDFwiHprugw3Tv/MVKApTFUlxEr5eE/wHAzgnxYmGn7pr1k4bgE+rs3+8ROuPMifwliM/5NoUcWMH1UQ==
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : SAI_Autrefrais
+    identifier : 0x22b0b39f0a058721
+    internal_properties : BQAAAAUAAABpb9qJvjoMmenTORKo8yyriZTTIPabhzfQwBrFWDbfddpiVlWo6W4lZHJFvWFg4H/Kmxc6egwZCGlMgj+wjUdF4BmfZW+BeacC+lVfYoiblr8VmYYOdXGocgV6SSoxY4Ud2qzcyx1uaO6BNzbcvLtK2TIxRaWMpxrcxRQjwDLtAFuSTk87vW8vGgwbXOFnz5OrvtpaVHaHfaaMK13HlOExZbSLkGc7VzhHk8gzZQhHrvC2mWdBkrkMxQ/8Y4QHS7IGYoh/FP5Jx8xFkZkbZY3mvWhs9ZtufsyXml12S+G4N4nAVI5xA1jKrNo9xl2SrtazE5kQsDnTxcgl4Bx0D/jBjB7jgCSycVnv6ChflDUzWWEuFDCkhhYlydUFTp704sRvmR2iN+/1QEBtpWv3mBUGHQh5HYNIszjQtjNzqWz7rw0Pj9bfewjs9NPfZS5gcvb6PS8inyx7fD7BFhcf2Y/gL00BBEX0T7g3EB3UgXSW4QxhhD1KS0a92/7TQ7Wjo7AvzCdDQ7uHYmqqa1gX48QAq652608ydtgKUa/TdtSDiiXLtb+mGqdLoWLD2lBpATmwMUfdaH9NVGdZXlOrn6e101pr9H0g9+svglr4XJDzrpb8+IzR8ePmx2Zk/q9i55tFklINoVmwbbZN7c2+cuJf2SrIsheDa013VQfvlQRKJheOEWVJtEep2C/sv5f7Yn6kieg/312m8FVmjARvsu8YqXPh4yWnFr+bVp5MN2KeTs5Q0hXlZQw94lgUmKzASKrSzbbNT65FdXDzeA4rAAd+WBfMXPWnJAPnO7ys9ZZ8DDj4L0mC+jjvLRJMG9YGHUTahdOGtstKMrahxKf9y/99uNEliUprZwdpOS+G63uI6CNOa9j/dlrSGcvD2xc2qKQIdF0v9PR2MUKQ1a5TT0v3fBy4arQiKxvblpAxo8SsNTBtRZPxBlwTLW3kluW8YB2LM0UeLCFZU34xtfnBlHl15IVxmDifCpplx7s0EdJ7Z0GmDz/ah4sBv/DU9qOD617QwMB6/fT45jJfdYypcetRURZxspGEUCTNftT8ZLVqHAyqYkN5v5J90bU17XPOhfdMh+59DWbICXoktVb1zAZNVq0amjvTAD7GkUXzV7+kLinvqVqaqP2kMswzyGSY0RfOO+Mfv36J28lI4TaplBpjgK+5G46xjLnXdNeOelAnEC7/4nt84ZCu6JuFVPkc40tfzP/utmaoN/UVY5ZntijGghHIPGvVQLL46nQQf7PHdFykCLpnG+XkQqr2ym/ZbI3kexIR+6UbwLQuwAk9LVQP7hfmYLXV/tbrIWt9eo6sv/9I9SnpZ9qIE9FB+qk75hASDvekuq52+NR6wBvB7k1hWfmNn/djJb+9nTEkY9DCWj/oEDYDPUS03lCMlMLaOrauQsrBc0aBlgp68FJyYVcvDriEYMxVcCSamkQDNZHbCDkGchGIxC1e63SudnUjE7BY7A==
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         SAI_Reste_a_payer = Val(SAI_Total_payé) - (Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais))
+        type : 17
+  -
+    name : SAI_Montant_Inscription
+    identifier : 0x22b0b39f0a038721
+    internal_properties : BQAAAAUAAACkNBXMf03f9l0OR6lz+rOIji+80bkG2Pz2oe1h1jZ9NjBYCWTH5GbS+a5nf8QPPbmfbp4bDfzjthof01FlwOXcraOSzulHTf5/asPQT3jbBs3vMJX+o/65KV1GE7Y24VfKip2z4AVFqQouqeFqOlAf/dHgJTynVTO8hQgClGXFVIrB16LpQMcxaxlTrvr8CCmm01Ij0NK3/YB4WUvLYGO/K4iFwksXF7S5v2LlteDN8GJu7/3NTlGUr+OuKcDjbZCoOhb9nLbVN0LFb3MD7RdM9wiCc6MW2jBRRqOEbyWSxTv4hphlP8iiFi4DEA1alEBJ74tq8Anf9ZLx0rJAK/4bzla1ciySlSExLL5VwPn9zwN+dpI4Gobhu0HD1AIoTNIpmcNQk3s1IFalQ6kjJHuo7/i/28tgx6DaynWRLQBVxYNrleRX8yTQHhdRg6rsiAh4SW0YPwTHfLh9QOm/IQkelfFXgsEwN1BpJJ8S/bjsa8ZZulMqEwIdnarVOclXrXah9G3Zx29PpjRueS5bL24+7Q7oZdmkpB42fyv3pFof3jGphZ+wDA0Z+cRTvpZvaYH0F8thtjVnUusfRr/RHZOx19h3sDMG2cX3XMYYrhp30soKRKhTEzEcI4xcerVo41dNhHYhkxv+l66PhXGsSO6rtVgw8lXBXXvbK6uXjyau6l/wFfFb1lWzJI0ca02Z3soojzwbhWPACgkUaMjtCHfAMTVZa8eZzHl3g1mJek+xG2WdYfYMdotOhaETIUtRN6v9htkq4hNAPhcoiyvend4Xx2ybDUQQq+g+oHcpSAMLtY/9BlKZ65dUvEd/6JmTlNUxevpv3aTh/+GCMzDUFCoaJ4YscmnUnuwMuubPMhT/SVYPpp1KI32DqAjWiOpTi5lvwSzQa7Wl9oktaNs2fCYcR33jL+e3djDCiztGJlEfoosygOiwR7s8DLZfE/S9Z0YeiGh7s2JI+L36aA5YHXxqOx5YoSO05bvYTHK9bHfe5Byb2tRJ0JLKys3zV57YGhdnSV/reHGLbw18HOV8njp6YL/gs5xxYy1Yy4PNV7Lpnbffbbjg0HGGBIJk/q5jaJSrINX2cPujpkVxfE/gwRW+PWah8+6gowM5Vry86gzfS8wkFO/hWfzx6T1OtTuxuNhxwD6kJg/Y2PRFcF9s8cHkB5C4rOEm1zYqObbvlTW+uVG0ZYhrMp+T73T42UClXtgezT6vAZOLeCi6+j/SW4ND0bonTW4KO/ff6xd1FizCSYu1v+NKOEh51T/9AxIOTNmxhQZC31oWG1pBcQ7DHTmhRQEWWpo0tuqX7Xba9DcxPwxbRdwsBtKmWlS99VaXH+4m18jBEkoIPn5H5DIin2maeugMBvRL1NwlHZNr24mpw2diJiGqQGIe2m5PPBv/CW8jNb4F95TM/B95u+qKuw27/8oYOTSSwEgENUtuOJ7UP7LjS0ZVyzYcLQWTSTRkUHOdqQ==
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         SAI_Reste_a_payer = Val(SAI_Total_payé) - (Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais))
+        type : 17
+  -
+    name : COMBO_Eleve
+    identifier : 0x22b0b39f0a068721
+    internal_properties : BQAAAAUAAAAe2z9sUUMrnWTYLz1zDijpuU4YQ3GbWWJAfRzmv03q2iL2j1VPVI/myASLcLOlFUoPi2rpU6SxKQC+AE4k2dIRNzoIxxaAnzJ8/CaL7b0D0fwF/qFDbxV02DGCGxKlbaZOMPtQ6OMr8dotmDv5bRyoAGf6KB2nsSN/PIDg+K6cMmPhURnGmJxw1ixoAChz/dGlmew/mCb7aPiN/THrHJwvJUS5FsyEuMWDBHG3Mr+1Y3k6Op4/Jv82KNnJIDe2brjnCm/QdbnJhbqRbKKxLZKIHjGJ/oFZa4uwzGgo1E0kAn+fngo9vKWMUECVtknt6JFZ3LH331d+ZpGzElk/qIdwdpjq0Y8qb9ghGw45UB3jweoB4oeB6Kmrqm6j/hU884m+YAXcgbbt4FKKrejHpOXCD4k6KfXQ1/XvCDTeZv4PQ+SoE1S2W1lnZZyVZm2LjdDSLWmfrCqF+4la3cvaHU1pl7mYUSZVRNdT/sb5XkWtb8fVaLh65x9M5Jaielk7tYdiT5gNWO0y5EuyjSwLJkkqFtF6bOkowzaUKYK4Etk4NO3UeJbiSepDeaDvQS4z9pQreCr2lw1fXKoxdMNZF1ZihCn6ZM9AVRaRpccvCLDzOHn6pJwjBT4i9UjGmpk1y1Ao+vRktXEf2YShsh91WgiHAkJCV6DDns09vmtE/k1QS4Wt1Ku+/ulempEyxkAK8iY9Vr4v/LDu38YbFsqqswj4Xkg1qVNcTI0eVlt61uesN4yKSCJ1yrK2bUbq2BOZMpvfdAaGhBL+KMKUqkMXziLlY8opq4UBA+RiGCvZkLkMeBonyafMVenp75jZLaJSlsksYECYDlnLqQg0/koJ2PVvdCPehfi0CykJkGiBZSGn82TJFeI37cikOpijYtPN4kaWpHkepyY9CLv3MwsKf2v8DoL662a7G9i/f8rzeud1078ZPq73siAMdrKuS1KzdcziGUkiaSWJ9udGZiNtExvM38f632AXg+AG0yLMPGkZigu/NkxwRZR4uq5y7TI2uEvSgd+UhWrwP0Ma5JdE0JAgcg9nlWGE2oSXXMttSkKZmB7QD2Z+Ium/7Warnf60Xmy0B54df3DAalxI1ToeXq0F14aj2CSYKfCFNOPQDRVdFxyYKrrzeAYiw2C3SpGWfRZqj3eB5nWgssRe8bpTPeUICg0PBs5F3mZTzGMNFI5sSHhhIRFiedVwzlHm4Eucdf/gwKkapDtZ0MTVNRGSoGMnwglfjbj6uiGttsUI9UkOZ23A0mn8zOwc6DB7saSOanu3Xs75hbJJmVri2XZ9rOG26ZuIYOmXJ2DKlmDk420K6y6OooywpypYjBCybvqoUn2xIIQvMnj5pRPxViKg3IBXzrtddA57j1fgcnOMfOpWjI36yHXFWiMqPaWrhpgwX+/HU/TmQwG1ChwLHARgjP/FOwVz9b5r/7PVVtJTdTOKGaFRJkd7pYCoWSHlUWOx7hUqG+oPT/6mAOO/dfvtLzXDNP3fGcpjVUE6DScHRLUyZVvirPJ0Ygt8faWDSjSJSxP+gqFtRX2+0ty8L43AmcmZTd54PfaGsxNRsSfNG175Cx0NUezo3VLL9CCXkR/VHdyeAwPZexWwqcxmmgfp4/CQtzvTLjsctXGCEYjRj5Vu13K6jVLaAW+qoJzoVBjUygGtjV6ic5VqvBcychO0/U4jnDaSixyVCWYRUJLlUxEFxocKKBaEc5WT9qBEuE8BS4fx75MJCFbxOdiqurHdSPcjJDbYj2LE8Dqtgqi2NPFdkRJLL5VnYRvVvFQ=
+    dropdown :
+     internal_properties : BQAAAAUAAAB87kksV7aAgF+ipUKqQT6oHykU2bf16HMdf1+1wDaIdsUBFGJGZDzeeatXdxxfPliFFFI6eX2mPy9JtUc+UgljLsC7IaSNdlMOf0+O6CzMRoigSvfqC9diHd6ONqdmopgXMbQcYlL0UHrPmyVEHilpT82OTZedu1vnbH0iJB+5cAnDjzvWCrTmt3tlkFrzZmeRd8s4ybJmNJ8DH8DVXIkDQJ5wi01H/iK78JZnglxZG4sKxQy6ybJaEy8s3cbepdyxMCEMweaAETOBTMHQleN+9MJXXzHo7okS64GSmbE+TgCQd0dHVRuoIcXagjDg+uRImYs9yGOKOdSvVQcldvb3EoCtta30/BYGgX2FyikLQLkfF9UFEHbcOYcIcVQOlUHxQcZv8Peq7sAyg4ZqdSYdkGLBaNF2cdFMpLrY7pIipWwRFBO6WdV9kt54z9R2V7Se+rjrIwQhAZC4psG+2OHuYfl+Cyc9UWiT3fmXPL2SCkw/R4bBxAgu71mAl05l6MCQIbvIFe5+JYomUiuPrrjZu7FvW84jBP+zK+1uYBpf+priDgLBUK57lwevYXBraATYCV9YSJNYrH8GHmo9WeU8I38N3ThA3YFCJcIKDWkMQ6fcLiLYeFhMO75tdztzDDpgckUkja5RC6o89viOAvVu+J0tiOiEYW41sZYRO8frnHtHXTQQ0Sx0PhXjqAP/W4E3pO3R/JFtjkwAgNfud0sRPyTplZ96lRcCPAnthu+bccsaKqMR6bF+oydsv8j1vcYEbBH4xkkiqBZujl1M2JE5TnP/
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1+
+         SI SansEspace(COMBO_ClassesSchool..ValeurAffichée) = ""
+         	HLitRecherchePremier(Eleve,IDEleve,COMBO_Eleve)
+         	SI HTrouve(Eleve) = Vrai ALORS
+         		HLitRecherchePremier(Statut_Eleve,IDStatut_Eleve,Eleve.Statut)
+         		SI HTrouve(Statut_Eleve) ALORS
+         			SI Statut_Eleve.Statut = "Formation Exonorée" ALORS
+         				SAI_Total_payé			=  0
+         				SAI_Reste_a_payer		=  0
+         				SAI_Montant_Inscription	= 0
+         				SAI_Autrefrais			= 0
+         			FIN 
+         		FIN	
+         	FIN
+         SINON
+         	HLitRecherchePremier(ClassesSchool,IDClassesSchool,COMBO_ClassesSchool)
+         	SI HTrouve(ClassesSchool) ALORS
+         		//	SAI_Montant_Inscription = ClassesSchool.Inscription 
+         		HLitRecherchePremier(Eleve,IDEleve,COMBO_Eleve)
+         		SI HTrouve(Eleve) = Vrai ALORS
+         			HLitRecherchePremier(Statut_Eleve,IDStatut_Eleve,Eleve.IDStatut_Eleve)
+         			SI HTrouve(Statut_Eleve) ALORS
+         				SI Statut_Eleve.Statut = "Formation Exonorée" ALORS
+         					SAI_Total_payé			=  0
+         					SAI_Reste_a_payer		=  0
+         					SAI_Montant_Inscription	= 0
+         					SAI_Autrefrais			= 0
+         					
+         				SINON
+         					SAI_Total_payé			=  ClassesSchool.total_a_payer 
+         					SAI_Reste_a_payer		=   ClassesSchool.total_a_payer
+         					SAI_Montant_Inscription	= ClassesSchool.Inscription
+         					SAI_Autrefrais			= ClassesSchool.Autres_Frais
+         				FIN 
+         			FIN	
+         		FIN
+         		
+         	FIN
+         	
+         	
+         FIN
+         
+         
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : SAI_Total_payé
+    identifier : 0x22b0b39f0a028721
+    internal_properties : BQAAAAUAAAA2B7ElPp6gU/T5T8zdbZqHFnxIaTsxdFtCDrPODPOzPJ/tddroVsLIf6sEi8+9rAGhML2n5Fu7FSO9DqyfNhiJhcsRfLxKwehEcx0WBtILLK5K3uvQnEV2uD+9ecawalc81mD+kwRvlOYTer4K6LAY8pyDEttS6fMcoLpXHm3k4gto+QLepxmy/9kxf7Ah8Fmg8xfLqU4eEhBgZW8SqSEMvP2mYrvZAuYW2p0X+D8lEnGhfhqP/2TUuhm3HtVTG8Rh+OdWx+vtACwGuKOSFTc/O85lQbbvEO6vfMwtrQTuEA1betMfPbV8+ssOXEV0aD18+w9UM0Ag0bs2jG5t3seS6BrD451zQSuOwflYjYEOeJOvf9OayBT4kN+/5JXOxyTAQ6pMIzzrJoboGy4G90wu7S4rc9ogCEwMCA1ghls1o2K6SPHKBWwuvMDtgI7u9bLgmkH2+X/8eA3fCd+BXDHOBvSrrFWApbVxV5O9sE2Orenebgv6rjjoNKsL3L0whX8VphWr4NWimCrxme9z0JGpgcyPbo0udJY/+4xZvZC8MqJ7so1CBu8HCeub6OStA4A3+xJJvkTFGuyUFaWLV8XUR+tTHzF2bA+eZkUqbCa8KbVR11bRvxfscubEaRc5dn8gtSDt0sCj8zKjL4QveLTLx7eOBw07GNHj2A94+KuEzrU4pVCecEgwcvVUYyltAakfb6Vy2EtjTek4nm1zHvOav4vb+QF9Gk3qLpN4DQ2YVvOdKMCJVCJIBqVK6uNwW7G6GSwtA1lJfPY8QBQ4CBXHfik7etSw1i1QAqgZMnfmVUw50VV7uq79HkPunXPACeRKluIdXTt9melZiEhPf+9NlPNgq236TR358djMBmsoMifo9Xjvyf28XzP9pctDU7v0PaRrY0av0HMVTkU5gJtuQ1Sk5FWCmyH/VmjY+QHrFBR5AsF2yFuwKvKnciiCs0TJoFeQKPL1Vvlb6uFBDPGJMvEOo79F0ft9CI3XNUj0wsbXHUao/986vGupaIFtHEAZodwBVKiGuq03/qxWg8Bd8yjvuumETaxploXsq7r9Sln018j9VdgMo9LV4ZKJYD7GK+FAOObTjOX2qHy48mo8ukd61Qa09Vp3gSy7Gj8J86BibhG/kgw6glmjJUy06NScAyH+jk8YWPB9I8pl0rMPn3thEvb1+WGM2vc5slD9dlZ2Zede+rW5ZxXOBOJ57huKFWsV0/mYqWpp6i7HTDjeQ892HxSRA1ZNqM663Y16kp2qLYc6yhuPJ9fx9WiEPDIAK95kFj/moClAM0IoGG8xCxhdDvrAzWKfh98WTIRH6iepzb99d7FTZC0JtDQ0ViKpANzUEvJyH7jY1woKdo8BJNN31SoHghVg5oBXr7qGr7JGKwceIKO+0Uo7QlKWJW1pKN0DkwYbt1/vEg0MRs8iC15PW14MveJNqvSq8GND1wTLYjoo9XJ7lm8IvTJyJmPIR+2v88wgDcb4rfp97yAQ4cIbyHrXLmDHPNNRW4Tv/aiSm6w=
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1-
+         
+         SAI_Total_payé = SAI_Scolarite + SAI_Autrefrais + SAI_Montant_Inscription
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+         SAI_Total_payé = SAI_Scolarite + SAI_Autrefrais + SAI_Montant_Inscription
+        type : 17
+  -
+    name : BTN_Valider1
+    identifier : 0x22b0b39f0a0c8721
+    internal_properties : BQAAAAUAAADlyqUdc74mprg74zeP+N1LIDXXA4SUUCshtcT3JE9m8NOX7sL+6rXDrwKmcv3kG33gWuZ0tN5pmWwau8996tJWDtry+ZVx47NE6CF77oPB21rx+WbOJkjp8cKT2afVzwNCDaetUhUZ4Sik7dzJY1JcFYr9ptWrvRLu73Y+P8XD6wC90gBZW2tKspsEcQnuHGAQ3zqQcluml8ouckEVW0S3RniBAefA5gWSaMeXbM8roP8fpCZENt2FrBQmFHu36z1hhYWGcxQ78wLODqxiYRv6DjuUfsK0Y9Ln6vq4Rxf39DlImun1anUDt9loBZsGUiB+cIaheWuj5wQzF/uy+r+2+C0DcFJFVfj3M/NXsFVIvbpZ2Xnu8MURC4DxljcoKIR3OMh9HlpWdBeeGNJHYzECsUS/1u7jew99C/kjbcUTLaBq+vE2YB6bsTogmorqw+GSVZmI/KiDlVpVZLYlQIo6UdgSFTydpoxhOvdbW67bM5TH35RDWyy/+KYm6yqLUq2vW/HNDp3uo80Zhw7g8ekUKuBkW1VOcip/qxmApsTIR1b/oQAbyw0GexCmUQRjPkcFKU0ETffQrnc/lzWfhgoVjuTmNhun+yuJAfkaokcsocRZ8jGPaLJqzWbmdzh4Ya+BtP2kVSyWib8wErsEqB8NpcufiMXxxc+6U5rv3TNo8j+9lsQFe6Hir3fhCyy4CaclYUn+yjG3t7WkfwadcgLWCz99xt53Qx8kn/X7zooKF5oiTMfBblw5DV0xKYD/DLHj0wdBzmsVn4S3ciETSi+wMA318AMi9NygSSKf7DTZzbNbgcZvB0msNz7qwaTcyDhGH+0GurMZBmvsZA==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         SI SAI_Référence_récu = "" ALORS
+         	Info("Veuillez entrer la référence du récu...")
+         	RETOUR
+         FIN
+         
+         SI SAI_annee_scolaire = "" ALORS
+         	Info("Veuillez entrer l'année académique...")
+         	RETOUR
+         FIN
+         
+         SI COMBO_ClassesSchool = "" ALORS
+         	Info("Veuillez sélectionner la classe...")
+         	RETOUR
+         FIN
+         
+         SI COMBO_Eleve = "" ALORS
+         	Info("Veuillez sélectionner un élève...")
+         	RETOUR
+         FIN
+         
+         SI SAI_Montant_Inscription = "" ALORS
+         	Info("Veuillez entré le montant d'inscription ...")
+         	RETOUR
+         FIN
+         
+         SI SAI_Date_d_inscription = "" ALORS
+         	Info("Veuillez entré la date d'inscription ...")
+         	RETOUR
+         FIN
+         HLitRecherchePremier(Eleve,IDEleve,COMBO_Eleve)
+         SI HTrouve(Eleve) = Vrai ALORS
+         	HLitRecherchePremier(Statut_Eleve,IDStatut_Eleve,Eleve.IDStatut_Eleve)
+         	SI HTrouve(Statut_Eleve) ALORS
+         		SI Statut_Eleve.Statut = "Formation Exonorée" ALORS
+         			HLitRecherchePremier(Inscription,IDInscription,gIdinscription)
+         			SI HTrouve(Inscription) ALORS
+         				Inscription.reste_a_payer				= SAI_Reste_a_payer
+         				Inscription.Tot_payé					= Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais)
+         				Inscription.Montant_Inscription			= SAI_Montant_Inscription
+         				Inscription.date_inscription			= SAI_Date_d_inscription
+         				Inscription.IDClassesSchool				= COMBO_ClassesSchool
+         				Inscription.Classes						= COMBO_ClassesSchool.ValeurAffichée
+         				Inscription.Autrefrais					= SAI_Autrefrais
+         				Inscription.Eleve						= COMBO_Eleve..ValeurAffichée
+         				Inscription.IDEleve						= COMBO_Eleve
+         				Inscription.AnneAcademique				= SAI_annee_scolaire
+         				Inscription.refrecu						= SAI_Référence_récu
+         				Inscription.Scolarite					= SAI_Scolarite
+         				Inscription.total_Formation				= SAI_Total_payé
+         				Inscription.V1							= SAI_Scolarite
+         				HModifie(Inscription)
+         				Info("Modification effectuée avec succès...")
+         //			Info("Inscription effectuée avec succès...")
+         			Ferme()
+         			fin
+         		SINON
+         			HLitRecherchePremier(Inscription,IDInscription,gIdinscription)
+         			si HTrouve(Inscription) ALORS
+         				Inscription.reste_a_payer				= SAI_Reste_a_payer
+         				Inscription.Tot_payé					= Val(SAI_Montant_Inscription) + Val(SAI_Scolarite) + Val(SAI_Autrefrais)
+         				Inscription.Montant_Inscription			= SAI_Montant_Inscription
+         				Inscription.date_inscription			= SAI_Date_d_inscription
+         				Inscription.IDClassesSchool				= COMBO_ClassesSchool
+         				Inscription.Classes						= COMBO_ClassesSchool.ValeurAffichée
+         				Inscription.Autrefrais					= SAI_Autrefrais
+         				Inscription.Eleve						= COMBO_Eleve..ValeurAffichée
+         				Inscription.IDEleve						= COMBO_Eleve
+         				Inscription.AnneAcademique				= SAI_annee_scolaire
+         				Inscription.refrecu						= SAI_Référence_récu
+         				Inscription.Scolarite					= SAI_Scolarite
+         				Inscription.total_Formation				= SAI_Total_payé
+         				Inscription.V1							= SAI_Scolarite
+         				HModifie(Inscription)
+         				info("Modification effectuée avec succès...")
+         				Ferme()
+         			fin
+         		fin
+         	fin
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_Reste_a_payer
+    identifier : 0x22b0b39f0a018721
+    internal_properties : BQAAAAUAAABw1A7MQMecEZUT60A2hdZzK3RukvhWvNJ6YFw4+XruraBL3vsrYZZ6iqyfzSM4Ob0Su+t+7SOaAnsSaAvaz/IOWonKOoV+1LfSSxyDImQyYQ86rzExEPo26NTVRC0R3jPZxXQAmHHEA373FvN3D2YNHUToIs6hBuoS5YInrMLDs3ZIF2edBCpQOWBbdiRjF+VG8pHBQdjjL+dpz9orchD9NOoCI26MoUEbjeXAwvL1vz2XzKtpsySZJbE7PFuOrPGiS09SMl8vLuOYJpJCv5mossrgw+ab5EBhUI2NRd5JQsiv8e03DBpErDGyyzE4FHZxTWxhCHSRyUZfaqlRObP6FJmo7P7+EuzQpJVrfmbm2bt5za/87TUkqmhW4dl7ZkZthPNKcwPnihvilTyW0l+FZ9UBLJxf3jzclQJ5ztQH8QQmGlPrOXTFhq3AbIZUO8+ONZslwC23Cbp8JM7QEuyyz+rIHuEkB8cUH/aLs27rXtNOnHHKAIZfx3ryIL+jrTyGSZmDitZ+Dl8fPsNAXFhQUW2hygJNmk8jc6hmsSrsgRK4HpmP818V0uYSpbDP6pNmhl04N0jM4btzmAAfJJssI/mXlOr6olYqYkiWC8SzJkyi7RfWpzuI6VwKiowCr9uy1BgbK1rXnElGAApr/u3TfcMRYR4wmhWbItuWNDCdPxihAp5uVtqxILEu+MZCtaiHhYDj11CcjFsqiE1c9Dwo633vEph+02CDY/ikUxoMr8R8TCujTe6VtGPcM8UonObLy7M2KSfbH50PmBwEL/UTW/dOO8wBglXAFllzSVQjLGXLxmuxuFedcGjSkMmLSafxRSNj8/JYm5G0C+QMhAqiUpjdtFH5/erxR7Kb030J1FZMU0Alm9Hf9dgjOWtNr3P8aW48A97VWygSmnO4ZhFLCKKUQgRtoWfmiumVVY3PCKC3W3AsM84MzYwAIQ86CthVVv9A+8eBRyuiXVK4DDZ4DRvYd8kUVOP2Y41ZOKdJkcA6x3LHIclmxpeCxZBux72cdlYefH8l/8IWoROxGVXBLoU5Vha/sr6hB/94Cf30cLxuZv5q+yQ6yvdUXeGTrTthBuN0IrgMlDTfhnrqXQOwCMVMW2wb+EnKSV5BU6T/0FMXfuN31Lp4CplJCmr/3dYeY/5QUNMf7njdt8UVDv+kDRYgCl/Y2DuRN6zOL9B/xhGYw3pZpQ1Z9HhYzoXefx9MTr3DrA29zZSn3c120IdWEsrlTWuDh69LYkxQUuZTcSNirkKiLnQeGZp4RdmTotO5Zvr+2gCbyzU2Nr+hsS66QC0TVLdTEthuwBMaNHT4vzGGIhoJrtugGSryb43bGKeHvuNKFPpsLA8fjPFqCEsFDR7fPHObflThcSDN0LpsxYH4gHh2KbzfiVNP7b/C2Hqu9n4kV+2Pw4QV+abXa4ttQvXsv+EcmcmnkI8+VIA89m4s/M1oZP1MN17U4EEX8tn7C+q+aDimAn1hTpHW+kBxBMVnHAMz2t6YT6Qv
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : COMBO_ClassesSchool
+    identifier : 0x22b0b39f0a0d8721
+    internal_properties : BQAAAAUAAAB7f5eW/9ha60VHSxKfNRNxKzi8DH+SgulmbUStFd92qObfi34RLernr2TKOdHn/IQpgY8UjFAZBvmqORHAk9DoikSdrFHHUsgBxgiHo7WiR5VWpBJXSXPx+u2DzpbAJGYiJgJZs/IiT610tJq2YccyxSSyUvdlGyL58ntwC3s2dD4I+F2cD1OLagiwXtOon4q3FZ67lUpWdojcC6nL5haTQQz8U0r4L3aS81U8gDCmZ8qOKETb+Hk1U6LHumckhfxEu0RCJblQORBYyhgFmLXSbKGdcIoWJ/XkQ7yWzTLoYlrQuXQRg+xUpsiv53VrfxsSUtFpXcDHmp3GOCp/xXXQIBCXQ7cNz5oMgOBVwYTgf6kb7/B3ElsRhaj0Gcwblyetexu0TBJYjt07/hOGpaMavb3Z04M5i4gdbVRTJUBDXhPVFmsa261YijIRzPcdqgPnnvvXAp1TMK4PANFKDo64s8WPDXvpJWuQV7AxSBLjlQJ1rYpDzYvIfNIoRv66cM5MmmfE7JE4gUlQZQFwlb95B0/Kv939BnxThWd+tSPbjQNUfNs/tqpsfSF+RM6gXH2XWvKDxaR0ds5wL2eTBVKX+ZvSNVZRu1owE2HB+OZO1G7mjJ+JFrxlleFC/05hO8YH19xGX1qvMY54yYTC3wwn1/OZOBSGsIv+74BBlSmZKMMXv1eQK9HOjBiCCj4yozxfh2wVN6Z7sVYq1j44IT90qc4DBsSDQ2KKyx870hpBBZegOELYTMLJwUE9e/lJ9lZfGPmu/x0I79yO9fv9U8N0WfwP4ziuuH1ZQfhs/ZXze156x40/NNN5cGQsNs9lPAcUhY3nQIfGU/aCaGxngw1pblS/AXcZEBBlCjs8taPmLD6JWIS2IGGB20SQ1LqggoImcd7KZCHXx+EiGuFmB7GS/438CC8TEauA8j+y/sWH0HnbeFXQwXNcncaZs7Au42U+lHKsYfVSs5jX2obL3/LbR+SkB58Jyr3OcSq1QhWOTBcrDCoMB4DJykuGIYwpSLi/PgkeT7OeD43LncZHUU8GyYNwexDf69RcSbLVkV9WlUe1GGtkmX3bpFlVFzZcalTkHAwFBDDIYA/XX6PdlwOmKmgffWWQ2tXx4y87wC4P65FiGo6QxHx25A5Z1FH78ejRkTU+BmHkkdX7pP65DKDF4C//IrXhNY1WmRVhIZzhJC3z81ZoXCng8THiX0ShJpdJjN8FNGfBUm319FvGY9u8kXiHIjJh4F+VTpQY955SUYo8BnAhulcwDXBvI6DooefM7+OYNoyRRrCIamyLzi7Dp+KgCk8S5XB8zYqQVk9bTJHJPDJFmilAqhWa3QeeAsFou1i9NnceCBbUULsTLdV7a6be/0c5o6wJC/JEc2I1krGd6yYtByHMyH6s0930r2MbPelJwy7qf4/1A4ZGfhQ5fvUccNxwWf2oeSBpgNhaOO/u6myX9tmfgJCxWlfrZbsphgBp+eK0zVPMZdVeMePHxgnFH/SOdpKY1NZslOBIrKlR7isokMFiVhpI7gLGhVunWlJqO+ffKtxqrH52sR62dK6TLwYhucR//WsbCLhhwasv9RbKZuBbc7U6j7d9Loe2ZyCiLqxceMKjQTOpeq3VuIG/1kPPuq4jC2QokuLpEl3OOevzJ0B1REiMql1nGVfznpVe+QD9o4hyE64+9kCAPPzQPFnrUcSkkQ899ftMGiMxFDB7plsrdwoxR8SAYBBzKqbM1p+GkJRq78tydojTogxRvUsqKTJa8NYM2kfP7bPipvLOWHAU5ok1J3plRV03z5b9VPi5qJHBKVEQjXH3mNUWK2/Rf4UBzep5Wdl9FD7a
+    dropdown :
+     internal_properties : BQAAAAUAAADy5jGH5FmbmJiBVFpNOHgMyw9C5elIUHdXz45ZbkbsvRHimWMMyueP3NXyyN52ZUTbLRbVDFV2Y8XwUlw1LL0tR9vqgKcZo4Yy85aAFivS/gxYCqvLuKnBLQCAwk6kRSeMtwyvxFHJVqiG5Dfn5OEKBWM9uW6SBATNsv5r6pkplifjOlG1DRYNODaeKV765Cy+6yW/5eU7U5fEXJmKLLMve3zqw+Uf6Vs+XnTLkLOFM7ow/pz9WSjuxkZX2D5P9CeCZ5y3peClwrCWiOgS+KrSC7L6EZEVotoE0tygDE67b9OhpnKcaOrms6ZzwhlssHnQtzF3vRO3lQuOhNP30AG6dlMLnCx1lfsThnaSRjzj/zXvgSI1m/6o+DyJIkyZxvQU1QPWQmuJOPy8oT/SWZ1e4wifoCncm1smTOD+nHbGz34b2N/uHYmh5oC6TUqSQ6LMtDz3F2SBgWzaSqFWlI2cR8+EVdlXd/4V0eH1Ujd45PZlOX7Z4mrwdXHybx7VWD6OM6dmC/Z+5Wpkfm2BXggzPTP5gSSVqhUhw1+okvp/ELBQriIhNoiFyanD9YxbeBI2F11eNv/MUPM0LgRXvXlW9ZF/t8L8Sc223wBmGXsSTRm6Eo7scl7yQbRxF+ML5IrIJpEKq1IFv36maizCbnFo+p/PVg6u1xTH40rljw8jVLMb+ereD6526BXhSiXvWwGXtNmjrjURwsgk7aZDrLwEnheWC/lF71IoTlnHMfmlHdoRl3aeRdWlMpm4eJ0XoDTeUY4jlmEmQpPojjRyCbZkHcxoCynVnVXYk3KTacRglTjfbw==
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1+
+         HLitRecherchePremier(ClassesSchool,IDClassesSchool,COMBO_ClassesSchool)
+         SI HTrouve(ClassesSchool) ALORS
+         	//	SAI_Montant_Inscription = ClassesSchool.Inscription 
+         	HLitRecherchePremier(Eleve,IDEleve,COMBO_Eleve)
+         	SI HTrouve(Eleve) = Vrai ALORS
+         		HLitRecherchePremier(Statut_Eleve,IDStatut_Eleve,Eleve.IDStatut_Eleve)
+         		SI HTrouve(Statut_Eleve) ALORS
+         			SI Statut_Eleve.Statut = "Formation Exonorée" ALORS
+         				SAI_Total_payé			=  0
+         				SAI_Reste_a_payer		=  0
+         				SAI_Montant_Inscription	= 0
+         				SAI_Autrefrais			= 0
+         				
+         			SINON
+         				SAI_Total_payé			=  ClassesSchool.total_a_payer 
+         				SAI_Reste_a_payer		=   ClassesSchool.total_a_payer
+         				SAI_Montant_Inscription	= ClassesSchool.Inscription
+         				SAI_Autrefrais			= ClassesSchool.Autres_Frais
+         			FIN 
+         		FIN	
+         	FIN
+         	
+         FIN
+         
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : SAI_annee_scolaire
+    identifier : 0x22b0b39f0a0e8721
+    internal_properties : BQAAAAUAAACF6ji3M3ALKNSlOZLFG/r3uEnRm6hZP5YwXmHLWewuA+uceI6CPuaUGwX1ZgJ7b1ktOfR+qlB6xb5pO1HTuHUs+ml4IsRdcXlSkaCxgS9aScflrWqfHrXZAXX2PAB436Phv0dfxScrfR1/wyckrUp1xFpTdWHXcNOkbOX0fCj4PSEqXmuCdMyAH1oaP7M3YB0n/a4+5zYUiK8RGN/h43nS78RNxCJtx/ns8iGt/50Uuiyp2wgiJuFQ0bPN1bEvztw3TyoFIQTYyCnTcmlLmKEIK8ByYChSAA4+AQKqQtGgMJsH/y1HHXNB1wzS01j177HN1Ac8vyUUpaejNn0aCYbzf2cT+jg07eBUkXcalVcNKYYSIQyhShv6ZtjtXxxxhxpOoVYq76eF84prUXJogMB1EVJJ52YT2eZYqyIVpnu0F/Ro0GuPSZ+9KO1DvH6224DxJVq/9FiFNfDGPK7rT/R20uf3yFNw3Xa8j9/3aBK5yl1acKtDQ1GXm0bky9nSHSSKOzC6+j5kySVOHPL2nwkF1yqs2Aba2JiiNXJW12rZ/e7pql6k6vl6ItAZj/oel468GS3pJW+T6I947hFGq759MQ5OhiRkYo3PBSstO23z4a+uyKwxVqEPPc4JPGsYjPWzrSZAICwbM+R3F3DsuyBa4QAF+zxOQsH3X/yu2FPg4mSIsHpnaRbNj43USTjRw1Y6V84X6D1Xe40e4HzgxW0FGzFy6cJI8kFEiWd4riR+Nc7QmG42pbacqq3ZzczJkMtIDgggbJFrCypFi+/UDKhPEZCjxrIpnStIRm4dchbw/xPctWD57cP06hI/fXzxx8OnLxJzLsA8qqRTfsmj2T9a925HBvzp+TqElGbIjNspRFarcvr7P8LdIOunX3dQ4E98ZVIz4U+oqxF+Z1n2DQaW7ocfa5cY0s2R46fhv6Ezqsbvw89a9Gsd7gNt9zMxP2lyaAm29+lkddMEDeFv1sE6pYdS/45jDmHgIHWofpXZ/Im6NKapXg8ELh/3+ywLOGTW5qf4QDVDhp76I3prvnCe+IXDUnczHqsdE+dFwkJkUmwuVlCA9SclIvPy/gy6vEQLPQFhfu0X7QEUoB+dp3H6szpFW1F9zlF2R2FWGbZJLBVpW31ifUOjsu9rLAJrogYxrBvzb1ZVNGIt7kulz41yapAabLIQTvY8lqY/GCl0G12KFoVHK1kJoqZoZfUTpeHMLBFaE+z0QaXkYdmX32yxMqo9Dh7CQSfzsusgDocscI+BNXT5NJznnWQoyj1WkvxQDqRr20vfh2WXdYEGce3//0cDo/YhuYfXJMVYMP19205qvAnydZbb7eRjzewDbo86RcrmP3+Olcloho4Rg5ZmfSpgfKPXEfFcdaT+hjrk3eMwuKWGuOOmqSKXsIsbaNqrlByY1HKvIG9AXiIYOWOiJWgAKMEhPjFQfnhsHeu7fqydjQlr1NC6Xb+kFyhBwmAYmom1Mlk=
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : FRM_SansNom1
+    identifier : 0x22b0b39f0a0f8721
+    internal_properties : BQAAAAUAAAC4khONtfKeCG5KUibZzECD7SEGWNu5QiwuTUER/H7VLwpBkHzFl1JV7zWGpsC7nsXsYdlE2Ly0d7MBcskEgWLS2Q68EqMtQ/fiLKX2a7RITK+lobXNG7Zu3apQDsJTqKElpeSPe9o2b/ZfhqvQQe7wSWPJclxH1JYEXU2WUSBkkFiPOaIe/oeE1xgpDpUv70YKvGa2O2WDJYu9vO0ZzxeAM/T0WahykQtloOttOpidceQttYnrGUzFvfRrhisAOo/mNpAEL/4/zJcMQWI3inh4+seEv55tB4mKZBeS+EXgeSeJXzT+k9jv3UvpnT5+0tDrvA2cOfXvEl4ATwHMJYA7Wn62s7+fWdE3q9bilAM8VUex8Pk3TA==
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BQAAAAUAAABd4biPtdLQOwfUFiqrit8H4xfGqKyz9t6VLxCUnNZRQiLPVs82PZNE+UVdKRzjizyeuKyRur85gNMUfqplpmtNDnQWQla9zo+GH9+1EfUJ6w17Dn/egD/gv+Hhywk8c9unIdzEp7EHgaAqD28w7Agveg4u19PBcKGZtQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BQAAAAUAAABqPQh6HC8RxAVkp2SqPYLuZrfVhd+1KX4lx22hIT8uqEpE6yP7Sbc2rmVqdmL816EWzXOkEe9ijOtYwchZKAfpy3B1cNqhpJgsnbUs
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MaFenêtre(gIdinscription)
+      HLitRecherchePremier(Inscription,IDInscription,gIdinscription)
+      SI HTrouve(Inscription) ALORS
+      	FichierVersEcran()
+      FIN
+   -
+     code : |1+
+      
+      
+      
+      
+     type : 34
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : BQAAAAUAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x12b087af0062e5ef
+  internal_properties : BQAAAAUAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+custom_note :
+ internal_properties : BQAAAAUAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BQAAAAUAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

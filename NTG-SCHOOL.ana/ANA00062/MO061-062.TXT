@@ -1,0 +1,6 @@
+//MO061-062.TXT ANA00061 TO ANA00062
+MOYENNE_GENERALE		TAR	800	nouvelle taille enregistrement : 800
+MOYENNE_GENERALE	M_matière_Fondamental	RUB+		M_matière_Fondamental est une nouvelle rubrique
+MOYENNE_GENERALE	conduite	RUB+		conduite est une nouvelle rubrique
+MOYENNE_GENERALE	Memoire	RUB+		Memoire est une nouvelle rubrique
+MOYENNE_GENERALE	Stage	RUB+		Stage est une nouvelle rubrique

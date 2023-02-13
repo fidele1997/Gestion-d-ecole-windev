@@ -1,0 +1,2 @@
+//MO013-014.TXT ANA00013 TO ANA00014
+Eleve	Chemin_image	CLEN*		la rubrique Chemin_image est maintenant une clé
